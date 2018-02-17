@@ -43,14 +43,14 @@
 | JDK Logging | Log4J 1 | Log4J 2 | Commons-Logging | SLF4J |
 |-------------|---------|---------|-----------------|-------|
 | ALL | ALL | ALL | :no_entry_sign: | :no_entry_sign: |
-| FINEST | TRACE | TRACE | :no_entry_sign: | :no_entry_sign: |
+| FINEST | TRACE | TRACE | _TRACE_ | _TRACE_ |
 | FINER | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: |
-| FINE | DEBUG | DEBUG | :no_entry_sign: | :no_entry_sign: |
+| FINE | DEBUG | DEBUG | _DEBUG_ | _DEBUG_ |
 | CONFIG | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: | :no_entry_sign: |
-| INFO | INFO | INFO | :no_entry_sign: | :no_entry_sign: |
-| WARNING | WARN | WARN | :no_entry_sign: | :no_entry_sign: |
-| :no_entry_sign: | ERROR | ERROR | :no_entry_sign: | :no_entry_sign: |
-| SEVERE | FATAL | FATAL | :no_entry_sign:| :no_entry_sign: |
+| INFO | INFO | INFO | _INFO_ | _INFO_ |
+| WARNING | WARN | WARN | _WARN_ | _WARN_ |
+| :no_entry_sign: | ERROR | ERROR | _ERROR_ | _ERROR_ |
+| SEVERE | FATAL | FATAL | _FATAL_| :no_entry_sign: |
 | OFF | OFF | OFF | :no_entry_sign: | :no_entry_sign: |
 
 ## IsEnabled Methods
