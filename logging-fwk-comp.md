@@ -10,7 +10,7 @@
 
 :information_source: [Logback](https://logback.qos.ch/) is the reference implementation for [SLF4J](https://www.slf4j.org/)
 
-:information_source: Spring Framework hsitoricaly use [commons-loggins](https://commons.apache.org/logging)
+:information_source: Spring Framework historically use [commons-loggins](https://commons.apache.org/logging)
 
 ## Loggers classes
 
