@@ -1,4 +1,4 @@
-# Logging Java Frameworks Comparison
+# Java Logging Frameworks Comparison
 
 ## Main frameworks
 
