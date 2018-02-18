@@ -1,5 +1,3 @@
-# java-docs
+# Personal Java Development Documentations
 
-Java Development Documentations
-
-* [Java Logging Frameworks Comparison](logging-fwk-comp.md)
+* [Java Logging Frameworks Overview](logging-fwk-comp.md)
