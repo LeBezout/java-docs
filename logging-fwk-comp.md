@@ -74,7 +74,7 @@
 
 ## Links
 
-### Official pages
+### Official pages
 
 * [SLF4J](https://www.slf4j.org/)
 * [Logback - Configuration](https://logback.qos.ch/manual/configuration.html)
