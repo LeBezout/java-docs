@@ -1,4 +1,4 @@
-# Java Logging Frameworks Comparison
+# Java Logging Frameworks Overview
 
 ## Main frameworks
 
@@ -74,10 +74,17 @@
 
 ## Links
 
-* [Baeldung - Introduction to Java Logging](http://www.baeldung.com/java-logging-intro)
-* [Spring - Spring Boot Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html)
+### Official pages
+
 * [SLF4J](https://www.slf4j.org/)
 * [Logback - Configuration](https://logback.qos.ch/manual/configuration.html)
+* [Log4J 1.2](https://logging.apache.org/log4j/1.2/)
 * [Log4J 2 - Manual](https://logging.apache.org/log4j/2.x/manual/)
 * [Apache Commons - commons-loggins](https://commons.apache.org/proper/commons-logging/)
+* [Java Logging Overview](https://docs.oracle.com/javase/8/docs/technotes/guides/logging/overview.html)
+
+### Tutorials
+
+* [Baeldung - Introduction to Java Logging](http://www.baeldung.com/java-logging-intro)
 * [Baeldung - Java Logging with Nested Diagnostic Context (NDC)](http://www.baeldung.com/java-logging-ndc-log4j)
+* [Spring - Spring Boot Logging](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-logging.html)
