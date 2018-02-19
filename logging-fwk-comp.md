@@ -2,7 +2,7 @@
 
 ## Main frameworks
 
-* JDK Logging (JUL) : java.util.logging
+* JDK Logging (JUL : java.util.logging)
 * Log4J 1.X
 * Log4J 2.X
 * Apache Commons-logging (JCL)
@@ -12,11 +12,27 @@
 
 :information_source: Spring Framework historically use [commons-loggins](https://commons.apache.org/logging)
 
-## Loggers classes
+## Loggers
 
-| JDK Logging | Log4J 1 | Log4J 2 | Commons-Logging | SLF4J |
-|-------------|---------|---------|-----------------|-------|
-| java.util.logging.Logger | org.apache.log4j.Logger | org.apache.logging.log4j.Logger | org.apache.commons.logging.Log | org.slf4j.Logger |
+### Implementation classes
+
+| Framework | Class name |
+|-----------|------------|
+| **JDK Logging** | `java.util.logging.Logger` |
+| **Log4J 1** | `org.apache.log4j.Logger` |
+| **Log4J 2** | `org.apache.logging.log4j.Logger` |
+| **Commons-Logging** | `org.apache.commons.logging.Log` |
+| **SLF4J** | `org.slf4j` | `org.slf4j.Logger` |
+
+### Obtain a Logger instance
+
+| Framework | Package | From name | From class |
+|-----------|---------|-----------|------------|
+| **JDK Logging** | `java.util.logging` | `Logger.getLogger("name")` | :no_entry_sign: |
+| **Log4J 1** | `org.apache.log4j` | `Logger.getLogger("name")` |  `Logger.getLogger(clazz)` |
+| **Log4J 2** | `org.apache.logging.log4j` | `LogManager.getLogger("name")` | `LogManager.getLogger(clazz)` |
+| **Commons-Logging** | `org.apache.commons.logging` | `LogFactory.getLog("name")` | `LogFactory.getLog(clazz)` |
+| **SLF4J** | `org.slf4j` | `LoggerFactory.getLogger("name")` | `LoggerFactory.getLogger(clazz)` |
 
 ## Trace Methods
 
@@ -36,9 +52,17 @@
 
 ## Levels
 
-| JDK Logging | Log4J 1 | Log4J 2 | Commons-Logging | SLF4J |
-|-------------|---------|---------|-----------------|-------|
-| java.util.logging.Level | org.apache.log4j.Level | org.apache.logging.log4j.Level | :no_entry_sign: | org.slf4j.event.Level |
+### Implementation classes
+
+| Framework | Class name |
+|-----------|------------|
+| **JDK Logging** | `java.util.logging.Level` |
+| **Log4J 1** | `org.apache.log4j.Level` |
+| **Log4J 2** | `org.apache.logging.log4j.Level` |
+| **Commons-Logging** | :no_entry_sign: |
+| **SLF4J** | `org.slf4j` | `org.slf4j.event.Level` |
+
+### Effectives levels
 
 | JDK Logging | Log4J 1 | Log4J 2 | Commons-Logging | SLF4J |
 |-------------|---------|---------|-----------------|-------|
