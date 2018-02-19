@@ -22,7 +22,9 @@
 | **Log4J 1** | `org.apache.log4j.Logger` |
 | **Log4J 2** | `org.apache.logging.log4j.Logger` |
 | **Commons-Logging** | `org.apache.commons.logging.Log` |
-| **SLF4J** | `org.slf4j` | `org.slf4j.Logger` |
+| **SLF4J** | `org.slf4j.Logger` | `org.slf4j.Logger` |
+
+:information_source: Note the Commons-Logging singularity
 
 ### Obtain a Logger instance
 
