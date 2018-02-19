@@ -5,7 +5,7 @@
 * JDK Logging (JUL) : java.util.logging
 * Log4J 1.X
 * Log4J 2.X
-* Commons-logging
+* Apache Commons-logging (JCL)
 * SLF4J
 
 :information_source: [Logback](https://logback.qos.ch/) is the reference implementation for [SLF4J](https://www.slf4j.org/)
