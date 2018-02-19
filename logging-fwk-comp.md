@@ -23,6 +23,7 @@
 | **Log4J 2** | `org.apache.logging.log4j.Logger` |
 | **Commons-Logging** | `org.apache.commons.logging.Log` |
 | **SLF4J** | `org.slf4j.Logger` | `org.slf4j.Logger` |
+| **Logback** | `ch.qos.logback.classic.Logger` |
 
 :information_source: Note the Commons-Logging singularity
 
@@ -62,7 +63,8 @@
 | **Log4J 1** | `org.apache.log4j.Level` |
 | **Log4J 2** | `org.apache.logging.log4j.Level` |
 | **Commons-Logging** | :no_entry_sign: |
-| **SLF4J** | `org.slf4j` | `org.slf4j.event.Level` |
+| **SLF4J** | `org.slf4j.event.Level` |
+| **Logback** | `ch.qos.logback.classic.Level` |
 
 ### Effectives levels
 
