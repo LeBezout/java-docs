@@ -35,7 +35,7 @@ public class SomeTest {
 }
 ```
 
-:warning: Alphabetiqc order (`NAME_ASCENDING`)
+:warning: Alphabetic order (`NAME_ASCENDING`)
 
 ## How to specify a timeout
 
