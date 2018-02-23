@@ -8,9 +8,9 @@ Common Runners :
 
 * Spring : `@RunWith(SpringJUnit4ClassRunner.class)`
 * Spring-Boot : `@RunWith(SpringRunner.class)` [Spring Boot features - Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
-* Mockito : `RunWith(MockitoJUnitRunner.class)` <http://site.mockito.org/>
-* JMockit : `RunWith(JMockit.class)` <http://jmockit.github.io/>
-* PowerMock : `RunWith(PowerMockRunner.class)` <http://powermock.github.io/>
+* Mockito : `@RunWith(MockitoJUnitRunner.class)` <http://site.mockito.org/>
+* JMockit : `@RunWith(JMockit.class)` <http://jmockit.github.io/>
+* PowerMock : `@RunWith(PowerMockRunner.class)` <http://powermock.github.io/>
 
 ## How to sort methods
 
@@ -53,11 +53,11 @@ Simply with `@Test` :
 
 :information_source: Timeout in milliseconds.
 
-> :warning: JavaDoc : Test methods with a timeout parameter are run in a thread other than the thread which runs the fixture's @Before and @After methods.
+> :warning: JUnit JavaDoc : Test methods with a timeout parameter are run in a thread other than the thread which runs the fixture's @Before and @After methods.
 
-## Assertions with exceptions
+## Deal with exceptions
 
-### First method
+### First way (poor)
 
 Simply with `@Test` :
 
@@ -68,7 +68,7 @@ Simply with `@Test` :
   }
 ```
 
-### Second method
+### Second way (better)
 
 With `@Rule` :
 
