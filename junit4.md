@@ -161,12 +161,12 @@ public @interface MyLocalTest {
 </plugin>
 ```
 
-**Third step** Add your annotation on the categorized tests:
+**Third step** Add the `@Category` annotation with your own annotation on the categorized tests:
 
 ```java
   @Test
-  @MyLocalTest
-  public void should_test() {
+  @Category(MyLocalTest.class)
+  public void should_be_ignored_by_maven() {
     callService();
   }
 ```
