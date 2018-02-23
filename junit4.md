@@ -2,12 +2,12 @@
 
 ## How to specify a "Runner"
 
-With the `@RunWith(UnRunner.class)` annotation on the test class:
+With the `@RunWith(MyRunner.class)` annotation on the test class:
 
 Common Runners :
 
 * Spring : `@RunWith(SpringJUnit4ClassRunner.class)`
-* Spring-Boot : `@RunWith(SpringRunner.class)` <https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html>
+* Spring-Boot : `@RunWith(SpringRunner.class)` [Spring Boot features - Testing](https://docs.spring.io/spring-boot/docs/current/reference/html/boot-features-testing.html)
 * Mockito : `RunWith(MockitoJUnitRunner.class)` <http://site.mockito.org/>
 * JMockit : `RunWith(JMockit.class)` <http://jmockit.github.io/>
 * PowerMock : `RunWith(PowerMockRunner.class)` <http://powermock.github.io/>
