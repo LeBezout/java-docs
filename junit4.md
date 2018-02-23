@@ -102,3 +102,71 @@ Validate an exception cause:
     callService();
   }
 ```
+
+## How to ignore tests
+
+### First way (very poor)
+
+Simply with `@Ignore` :
+
+```java
+  @Test
+  @Ignore
+  public void should_test() {
+    callService();
+  }
+```
+
+### Second way (poor)
+
+With the Maven Surefire plugin:
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <configuration>
+    <excludes>
+      <exclude>**/IgnoredTest1*</exclude>
+      <exclude>**/IgnoredTest2*</exclude>
+    </excludes>
+  </configuration>
+</plugin>
+```
+
+### Third way (better)
+
+With `@Category`annotation.
+
+**First step** Define an annotation like this one:
+
+```java
+@Retention(RetentionPolicy.RUNTIME)
+@Target(ElementType.METHOD)
+public @interface MyLocalTest {
+
+}
+```
+
+**Second step** Configure the Maven Surefire plugin:
+
+```xml
+<plugin>
+  <groupId>org.apache.maven.plugins</groupId>
+  <artifactId>maven-surefire-plugin</artifactId>
+  <configuration>
+    <groups></groups>
+    <excludedGroups>com.myorg.category.MyLocalTest</excludedGroups>
+  </configuration>
+</plugin>
+```
+
+**Third step** Add your annotation on the categorized tests:
+
+```java
+  @Test
+  @MyLocalTest
+  public void should_test() {
+    callService();
+  }
+```
