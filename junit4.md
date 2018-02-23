@@ -1,4 +1,4 @@
-# JUnit 4 - Tips
+# JUnit 4 - Tips & Tricks
 
 ## How to specify a "Runner"
 
@@ -26,7 +26,7 @@ public class SomeTest {
   }
   @Test
   public void test_2_second() {
-    System.out.println("seconde xecuted test");
+    System.out.println("second executed test");
   }
   @Test
   public void test_3_third() {
