@@ -11,7 +11,7 @@ Common Runners :
 * Mockito : `RunWith(MockitoJUnitRunner.class)`
 * JMockit : `RunWith(JMockit.class)`
 
-## Sorting methods
+## How to sort methods
 
 With the `@FixMethodOrder` annotation on the test class:
 
@@ -36,7 +36,7 @@ public class SomeTest {
 
 :warning: Alphabetiqc order (`NAME_ASCENDING`)
 
-## Sepcify a timeout
+## How to specify a timeout
 
 For example, for a test that performs a remote service call (to be avoided) or a local HTTP server mock, it is advisable to set a delay.
 So that JUnit can stop the test if it lasts too long.
@@ -44,7 +44,7 @@ So that JUnit can stop the test if it lasts too long.
 Simply with `@Test` :
 
 ```java
-  @Test(timeout = TechnicalException.class)
+  @Test(timeout = 10_000)
   public void should_test() {
     callHttpService();
   }
@@ -90,7 +90,7 @@ In the test method:
   }
 ```
 
-Validate an exception:
+Validate an exception cause:
 
 ```java
   @Test
