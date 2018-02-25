@@ -17,9 +17,9 @@
 
 ## JUnit 4 vs JUnit 5
 
-| Junit 4 | JUnit 5 |
+| JUnit 4 | JUnit 5 |
 |---------|---------|
-| `@Test(expected = MyException.class)` | `Assertions.assertThrows(Exception.class, () -> { ... });` |
+| `@Test(expected = MyException.class)` | `Assertions.assertThrows(MyException.class, () -> { ... });` |
 | `@Test(timeout = 10_000)` | `Assertions.assertTimeout(Duration.ofMillis(10_000), () -> { ... });` |
 | `@Before` | `@BeforeEach` |
 | `@After` | `@AfterEach` |
