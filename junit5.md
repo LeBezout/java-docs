@@ -29,7 +29,18 @@
 | `@Category` | `@Tag` |
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
+| :no_entry_sign: | `@DisplayName` |
 
 ## New
 
+### Annotations
+
+* [JUnit Jupiter Annotations](https://junit.org/junit5/docs/current/user-guide/#writing-tests-annotations)
+
+### Assertions
+
 * `Assertions.assertAll()`
+
+### Assumptions
+
+TODO
