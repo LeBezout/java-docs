@@ -20,7 +20,7 @@
 | Junit 4 | JUnit 5 |
 |---------|---------|
 | `@Test(expected = MyException.class)` | `Assertions.assertThrows(Exception.class, () -> { ... });` |
-| `@Test(timeout = 10_000)` | `Assertions.assertTimeout(Duration.ofMillis(1), () -> { ... });` |
+| `@Test(timeout = 10_000)` | `Assertions.assertTimeout(Duration.ofMillis(10_000), () -> { ... });` |
 | `@Before` | `@BeforeEach` |
 | `@After` | `@AfterEach` |
 | `@BeforeClass` | `@BeforeAll` |
