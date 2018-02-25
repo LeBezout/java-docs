@@ -29,6 +29,7 @@
 | `@Category` | `@Tag` |
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
+| `@ClassRule` | `@ExtendWith` |
 | :no_entry_sign: | `@DisplayName` |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
 
