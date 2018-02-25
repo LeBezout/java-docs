@@ -30,6 +30,9 @@
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
 | :no_entry_sign: | `@DisplayName` |
+| `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
+
+:information_source: [junit.org - Migrating from JUnit 4](https://junit.org/junit5/docs/current/user-guide/#migrating-from-junit4)
 
 ## New
 
