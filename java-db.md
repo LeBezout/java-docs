@@ -4,7 +4,7 @@
 
 * [Apache Derby](http://db.apache.org/derby/) - [Getting started](https://builds.apache.org/job/Derby-docs/lastSuccessfulBuild/artifact/trunk/out/getstart/index.html)
 * [Hyper SQL DB](http://hsqldb.org/) - [Getting started](http://hsqldb.org/doc/2.0/guide/index.html)
-* [H2 Database Engine](http://www.h2database.com/) - [Getting started](http://www.h2database.com/html/quickstart.html)
+* [H2 Database Engine](http://www.h2database.com/) - [Getting started](http://www.h2database.com/html/quickstart.html) - [Cheat Sheet](http://www.h2database.com/html/cheatSheet.html)
 
 ## Maven Dependencies
 
@@ -14,7 +14,7 @@
 <dependency>
   <groupId>org.apache.derby</groupId>
   <artifactId>derby</artifactId>
-  <version>10.12.1.1</version>
+  <version>10.14.1.0</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -25,7 +25,7 @@
 <dependency>
   <groupId>org.hsqldb</groupId>
   <artifactId>hsqldb</artifactId>
-  <version>2.3.3</version>
+  <version>2.4.0</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -94,6 +94,12 @@
 | **H2 Database Engine** | database is closed when the last connection to it is closed | :no_entry_sign: | :no_entry_sign: |
 
 ## Remarks
+
+### Apache Derby
+
+> To remove an in-memory database, use the connection URL attribute drop as follows: `jdbc:derby:memory:my_db;drop=true`
+
+> When you drop the database, Derby issues what appears to be an error but is actually an indication of success. You need to catch error 08006, as described in "The WwdEmbedded program" in Getting Started with Derby.
 
 ### Hyper SQL
 
