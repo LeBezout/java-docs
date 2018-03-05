@@ -43,14 +43,13 @@
 
 ## Overview
 
-|                   | Apache Derby | Hyper SQL DB | H2 Database Engine |
+| Item              | Apache Derby | Hyper SQL DB | H2 Database Engine |
 |-------------------|--------------|--------------|--------------------|
 | Driver Class name | `org.apache.derby.jdbc.EmbeddedDriver` | `org.hsqldb.jdbc.JDBCDriver` | `org.h2.Driver` |
 | Hibernate Dialect | `org.hibernate.dialect.DerbyDialect` | `org.hibernate.dialect.HSQLDialect` | `org.hibernate.dialect.H2Dialect` |
 | Create file database | `jdbc:derby:target/junit/db/my_db;create=true` | `jdbc:hsqldb:file:target/junit/db/my_db;create=true` | `jdbc:h2:file:target/junit/db/my_db` |
-| Create memory database | ? | `jdbc:hsqldb:mem:my_db` | `jdbc:hsqldb:mem:my_db` | `jdbc:h2:mem:my_db` |
+| Create memory database | `jdbc:derby:memory:my_db;create=true` | `jdbc:hsqldb:mem:my_db` | `jdbc:hsqldb:mem:my_db` | `jdbc:h2:mem:my_db` |
 | Shutdown database | `jdbc:derby:target/junit/db/my_db;shutdown=true` |  `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | database is closed when the last connection to it is closed |
-
 
 ## Drivers
 
@@ -82,6 +81,7 @@
 
 | Librairy | JDBC String | User | Password |
 |----------|-------------|------|----------|
+| **Apache Derby** | `jdbc:derby:memory:my_db;create=true` | :no_entry_sign: | :no_entry_sign: |
 | **Hyper SQL DB** | `jdbc:hsqldb:mem:my_db` | `SA` | :no_entry_sign: |
 | **H2 Database Engine** | `jdbc:h2:mem:my_db` | `sa` | :no_entry_sign: |
 
