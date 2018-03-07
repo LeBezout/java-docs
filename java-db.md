@@ -118,3 +118,5 @@
 > `;DB_CLOSE_DELAY=<seconds>` The parameter `<seconds>` specifies the number of seconds to keep a database open after the last connection to it was closed.
 
 > [Database URL Overvieww](http://www.h2database.com/html/features.html#database_url)
+
+:bulb: For _Oracle_ compatibility add property `;MODE=Oracle` to url
