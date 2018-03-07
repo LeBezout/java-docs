@@ -93,6 +93,22 @@
 | **Hyper SQL DB** | `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | `SA` | :no_entry_sign: |
 | **H2 Database Engine** | database is closed when the last connection to it is closed | :no_entry_sign: | :no_entry_sign: |
 
+## Compatibility Modes
+
+| DBMS Provider | Apache Derby | Hyper SQL DB | H2 Database Engine |
+|-------------|--------------|--------------|--------------------|
+| Oracle | :no_entry_sign: | `sql.syntax_ora=true` | `MODE=Oracle` |
+| MySQL | :no_entry_sign: | `sql.syntax_mys=true` | `MODE=MySQL` |
+| PostgreSQL | :no_entry_sign: | `sql.syntax_pgs=true` | `MODE=PostgreSQL` |
+| DB2 | :no_entry_sign: | `sql.syntax_db2=true` | `MODE=DB2` |
+| MS SQLServer | :no_entry_sign: | `sql.syntax_mss=true` | `MODE=MSSQLServer` |
+| Derby | :no_entry: | :no_entry_sign: | `MODE=Derby` |
+| HSQLDB | :no_entry_sign: | :no_entry: | `MODE=HSQLDB` |
+| H2 | :no_entry_sign: | :no_entry_sign: |  :no_entry: |
+
+* [H2 Compatibility page](http://www.h2database.com/html/features.html#compatibility)
+* [HSQLDB Compatibility page](http://hsqldb.org/doc/guide/compatibility-chapt.html)
+
 ## Remarks
 
 ### Apache Derby
@@ -109,8 +125,6 @@
 
 > A connection property `ifexists=true` allow connection to an existing database only and avoid creating a new database.
 
-:bulb: For _Oracle_ compatibility add property `;sql.syntax_ora=true` to url
-
 ### H2
 
 > By default, a new database is automatically created if it does not exist yet.
@@ -118,5 +132,3 @@
 > `;DB_CLOSE_DELAY=<seconds>` The parameter `<seconds>` specifies the number of seconds to keep a database open after the last connection to it was closed.
 
 > [Database URL Overvieww](http://www.h2database.com/html/features.html#database_url)
-
-:bulb: For _Oracle_ compatibility add property `;MODE=Oracle` to url
