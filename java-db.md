@@ -2,6 +2,8 @@
 
 ## Main librairies
 
+ ![Logo Derby](https://db.apache.org/derby/docs/10.0/images/derby-logo-web.png)  ![Logo HSQL](http://hsqldb.org/images/hypersql_logo.png)  ![Logo H2](http://www.h2database.com/html/images/h2-logo-2.png)
+
 * [Apache Derby](http://db.apache.org/derby/) - [Getting started](https://builds.apache.org/job/Derby-docs/lastSuccessfulBuild/artifact/trunk/out/getstart/index.html)
 * [Hyper SQL DB](http://hsqldb.org/) - [Getting started](http://hsqldb.org/doc/2.0/guide/index.html)
 * [H2 Database Engine](http://www.h2database.com/) - [Getting started](http://www.h2database.com/html/quickstart.html) - [Cheat Sheet](http://www.h2database.com/html/cheatSheet.html)
