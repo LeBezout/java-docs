@@ -28,26 +28,26 @@ cxf.servlet.init.service-list-title=My App
 
 ## Step 3: implement services
 
-Package `com.mycompany.myapp.soap.endpoint` :
+Exemple package `com.mycompany.myapp.soap.endpoint` :
 
 ```java
 @Component
 @javax.jws.WebService(serviceName = "SampleSoapService", portName = "SampleSoapPort", targetNamespace = "http://soap.myapp.mycompany.com/sample/")
 public class SampleSoapService {
-	private final MyService sampleService;
-	public SampleSoapService(MyService sampleService) {
-		this.sampleService = sampleService;
-	}
+  private final MyService sampleService;
+  public SampleSoapService(MyService sampleService) {
+    this.sampleService = sampleService;
+  }
   
-	@WebResult(name = "version")
-	public String wsVersion() {
-		return "1.0";
-	}
+  @WebResult(name = "version")
+  public String wsVersion() {
+    return "1.0";
+  }
 	
-	@WebResult(name = "sample")
-	public SampleDTO getEntityById(@WebParam(name = "idSample") @XmlElement(required = true) Long id) {
-		return sampleService.getSampleEntity(id);
-	}
+  @WebResult(name = "sample")
+  public SampleDTO getEntityById(@WebParam(name = "idSample") @XmlElement(required = true) Long id) {
+    return sampleService.getSampleEntity(id);
+  }
 }
 ```
 
