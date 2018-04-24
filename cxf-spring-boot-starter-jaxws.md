@@ -2,9 +2,11 @@
 
 :bulb: Official Documentation <http://cxf.apache.org/docs/springboot.html#SpringBoot-SpringBootCXFJAX-WSStarter>
 
+_...a little bit poor..._
+
 ## Step 1: add dependency
 
-In `pom.xml` file (I let you deduce equivalence for Gradle) :
+In your `pom.xml` file (I let you deduce equivalence for Gradle) :
 
 ```xml
 <dependency>
@@ -16,7 +18,7 @@ In `pom.xml` file (I let you deduce equivalence for Gradle) :
 
 ## Step 2: configuration
 
-In `application.properties` file (I let you deduce equivalence for Yaml) :
+In your  `application.properties` file (I let you deduce equivalence for Yaml) :
 
 ```properties
 cxf.path=/ws
@@ -26,7 +28,7 @@ cxf.servlet.init.service-list-title=My App
 
 :information_source: `cxf.path` defaults to `/services`
 
-## Step 3: implement services
+## Step 3: implement endpoints
 
 Exemple package `com.mycompany.myapp.soap.endpoint` :
 
@@ -51,7 +53,7 @@ public class SampleSoapService {
 }
 ```
 
-## Step 4: declare services
+## Step 4: declare endpoints
 
 I write a single `@Configuration` class to centralize the declarations :
 
@@ -105,7 +107,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     
   @Override
   protected void configure(HttpSecurity http) throws Exception {
-    // 403 - Could not verify the provided CSRF token because your session was not found.
+    // Avoid 403 - Could not verify the provided CSRF token because your session was not found.
     http.csrf().disable();
     // Secure each service with a single role
     http.authorizeRequests().anyRequest().hasAuthority("G_ADMIN_WS").and().httpBasic();
@@ -113,8 +115,8 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 	
   @Override
   public void configure(WebSecurity web) throws Exception {
-    // let acess everyone to the WSDL, the services list and CXF generated stylesheets
-    web.ignoring().antMatchers("/ws", "/ws/probe").regexMatchers(".*\\?wsdl").regexMatchers(".*\\?stylesheet=.*");
+    // let acess everyone to the WSDL, the services list and CXF generated stylesheets or some unsecured endpoints
+    web.ignoring().antMatchers("/ws", "/ws/unsecured").regexMatchers(".*\\?wsdl").regexMatchers(".*\\?stylesheet=.*");
   }
 }
 ```
@@ -122,3 +124,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 ## Step 6: add some JUnit tests
 
 TODO
+
+## Step 7: Run & tests
+
+* Access the endpoints list <http://localhost:8080/myapp/ws>
+* Access a particular endpoints WSDL <http://localhost:8080/myapp/ws/sample?wsdl>
+* Test with SoapUI <http://localhost:8080/myapp/ws/sample>
