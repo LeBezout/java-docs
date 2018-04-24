@@ -1,10 +1,12 @@
 # Spring Boot : JAX-WS : How to use `cxf-spring-boot-starter-jaxws`
 
-:bulb: Official Documentation <http://cxf.apache.org/docs/springboot.html#SpringBoot-SpringBootCXFJAX-WSStarter>
+:information_source: Official documentation <http://cxf.apache.org/docs/springboot.html#SpringBoot-SpringBootCXFJAX-WSStarter>
 
 _...a little bit poor..._
 
-## Step 1: add dependency
+:bulb: This is a _code first_ approcah unlike `spring-boot-starter-web-services` explained here <https://spring.io/guides/gs/producing-web-service/> that proposes a _contract first_ approach.
+
+## Step 1: add a single dependency
 
 In your `pom.xml` file (I let you deduce equivalence for Gradle) :
 
