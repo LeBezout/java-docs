@@ -58,32 +58,32 @@ I write a single `@Configuration` class to centralize the declarations :
 ```java
 @Configuration
 public class WebServicePublisher {
-	private static final String LOG_MSG_PATTERN = "Publishing CXF Webservice {}";
-	private static final Logger LOGGER = LoggerFactory.getLogger(WebServicePublisher.class);
+  private static final String LOG_MSG_PATTERN = "Publishing CXF Webservice {}";
+  private static final Logger LOGGER = LoggerFactory.getLogger(WebServicePublisher.class);
 	
-	@Autowired
-	private SpringBus springBus;
+  @Autowired
+  private SpringBus springBus;
   // inject here all endpoints
-	@Autowired
-	private SampleSoapService sampleSoapService;
-	@Autowired
-	private AnotherSampleSoapService anotherSampleSoapService;
+  @Autowired
+  private SampleSoapService sampleSoapService;
+  @Autowired
+  private AnotherSampleSoapService anotherSampleSoapService;
 
-	@Bean
-	public Endpoint publishSampleEndpoint() {
-		LOGGER.info(LOG_MSG_PATTERN, sampleSoapService);
-		EndpointImpl endpoint = new EndpointImpl(springBus, sampleSoapService);
-		endpoint.publish("/sample");
-		return endpoint;
-	}
+  @Bean
+  public Endpoint publishSampleEndpoint() {
+    LOGGER.info(LOG_MSG_PATTERN, sampleSoapService);
+    EndpointImpl endpoint = new EndpointImpl(springBus, sampleSoapService);
+    endpoint.publish("/sample");
+    return endpoint;
+  }
 
-	@Bean
-	public Endpoint publishAnotherSampleEndpoint() {
-		LOGGER.info(LOG_MSG_PATTERN, probeSoapService);
-		EndpointImpl endpoint = new EndpointImpl(springBus, anotherSampleSoapService);
-		endpoint.publish("/other");
-		return endpoint;
-	}
+  @Bean
+  public Endpoint publishAnotherSampleEndpoint() {
+    LOGGER.info(LOG_MSG_PATTERN, probeSoapService);
+    EndpointImpl endpoint = new EndpointImpl(springBus, anotherSampleSoapService);
+    endpoint.publish("/other");
+    return endpoint;
+  }
 	
   // ... and more
 }
@@ -91,30 +91,34 @@ public class WebServicePublisher {
 
 ## Step 5: add some security
 
-As usual let user Spring Security :
+As usual use Spring Security :
 
 ```java
 @Configuration
 @EnableWebSecurity
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
-	@Override
-	public void configure(AuthenticationManagerBuilder auth) throws Exception {
-	  auth.inMemoryAuthentication().withUser("admin-ws").password("{noop}secret").authorities("G_ADMIN_WS");
-	  //auth.authenticationProvider(your_custom_auth_provider);
-	}
+  @Override
+  public void configure(AuthenticationManagerBuilder auth) throws Exception {
+    auth.inMemoryAuthentication().withUser("admin-ws").password("{noop}secret").authorities("G_ADMIN_WS");
+    //auth.authenticationProvider(your_custom_auth_provider);
+  }
     
-	@Override
-    protected void configure(HttpSecurity http) throws Exception {
-		// 403 - Could not verify the provided CSRF token because your session was not found.
-		http.csrf().disable();
-		// Secure each service with a single role
-		http.authorizeRequests().anyRequest().hasAuthority("G_ADMIN_WS").and().httpBasic();
-	}
+  @Override
+  protected void configure(HttpSecurity http) throws Exception {
+    // 403 - Could not verify the provided CSRF token because your session was not found.
+    http.csrf().disable();
+    // Secure each service with a single role
+    http.authorizeRequests().anyRequest().hasAuthority("G_ADMIN_WS").and().httpBasic();
+  }
 	
-	@Override
-	public void configure(WebSecurity web) throws Exception {
+  @Override
+  public void configure(WebSecurity web) throws Exception {
     // let acess everyone to the WSDL, the services list and CXF generated stylesheets
-		web.ignoring().antMatchers("/ws", "/ws/probe").regexMatchers(".*\\?wsdl").regexMatchers(".*\\?stylesheet=.*");
-	}
+    web.ignoring().antMatchers("/ws", "/ws/probe").regexMatchers(".*\\?wsdl").regexMatchers(".*\\?stylesheet=.*");
+  }
 }
 ```
+
+## Step 6: add some JUnit tests
+
+TODO
