@@ -4,7 +4,7 @@
 
 _...a little bit poor..._
 
-:bulb: This is a _code first_ approcah unlike `spring-boot-starter-web-services` explained here <https://spring.io/guides/gs/producing-web-service/> that proposes a more complex _contract first_ approach.
+:bulb: This is a _code first_ approcah unlike `spring-boot-starter-web-services` explained here <https://spring.io/guides/gs/producing-web-service/> that proposes a more complicated _contract first_ approach.
 
 ## Step 1: add a single dependency
 
