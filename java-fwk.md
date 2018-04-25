@@ -1,0 +1,30 @@
+# Java Frameworks Overview
+
+## Spécifications
+
+### JPA
+
+| Editor | Project | Name | Description |
+|---------|--------|-----|-------------|
+| Red Hat, Inc. | JBoss | [Hibernate](http://hibernate.org/) | |
+| The Eclipse Foundation | | [EclipseLink](http://www.eclipse.org/eclipselink/) | Reference Implémentation (TopLink derived) |
+| Apache | | [OpenJPA](http://openjpa.apache.org/) | |
+| Oracle | | [TopLink](http://www.oracle.com/technetwork/middleware/toplink/overview/index-089172.html) | |
+
+### JAX-WS
+
+| Editor | Project | Name | Description |
+|---------|--------|-----|-------------|
+| Apache | CXF | [CXF](http://cxf.apache.org/) | |
+| Apache | Axis | [Axis 2](https://axis.apache.org/axis2/java/core/) | |
+| Oracle | GlassFish | [Metro](https://javaee.github.io/metro/)| |
+| Red Hat, Inc. | JBoss | [JBoss WS](http://jbossws.jboss.org/) | |
+
+### JAX-RS
+
+| Editor | Project | Name | Description |
+|---------|--------|-----|-------------|
+| Red Hat, Inc. | JBoss | [RESTEasy](http://resteasy.jboss.org/) | |
+| Oracle | GlassFish | [Jersey](https://jersey.github.io/) | Reference Implémentation |
+| Apache | CXF | [CXF](http://cxf.apache.org/) | |
+| Pivotal | Spring | [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) | |
