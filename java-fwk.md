@@ -1,13 +1,13 @@
 # Java Frameworks Overview
 
-## Spécifications
+## Specifications
 
 ### JPA
 
 | Editor | Project | Name | Description |
 |---------|--------|-----|-------------|
 | Red Hat, Inc. | JBoss | [Hibernate](http://hibernate.org/) | |
-| The Eclipse Foundation | | [EclipseLink](http://www.eclipse.org/eclipselink/) | Reference Implementation (TopLink derived) |
+| The Eclipse Foundation | EclipseLink | [EclipseLink](http://www.eclipse.org/eclipselink/) | Reference Implementation (TopLink derived) |
 | Apache | OpenJPA | [OpenJPA](http://openjpa.apache.org/) | |
 | Oracle | TopLink | [TopLink](http://www.oracle.com/technetwork/middleware/toplink/overview/index-089172.html) | |
 
@@ -37,3 +37,19 @@
 | Atomikos BVBA | Atomikos | [Atomikos](https://www.atomikos.com/) | |
 | - | Bitronix | [BTM](https://github.com/bitronix/btm) | |
 | Red Hat, Inc. | JBoss | [Narayana](http://narayana.io/) | |
+
+## Unit testing
+
+| Editor | Project | Name | Description |
+|---------|--------|-----|-------------|
+| - | JUnit | [JUnit](https://junit.org/) | |
+| - | DbUnit | [DbUnit](http://dbunit.sourceforge.net/) | |
+| - | HttpUnit | [HttpUnit](http://httpunit.sourceforge.net/) | |
+| - | XMLUnit | [XMLUnit](https://www.xmlunit.org/) | |
+| - | Mockito | [Mockito](http://site.mockito.org/) | |
+| - | EasyMock | [EasyMock](http://easymock.org/) | |
+| - | TestNG | [TestNG](http://testng.org/doc/) | |
+| Red Hat, Inc. | JBoss | [Arquillian](http://arquillian.org/) | |
+| - | jMock | [jMock](http://jmock.org/) | |
+| - | JMockit | [JMockit ](http://jmockit.org) | |
+| - | PowerMock | [PowerMock](http://powermock.github.io/) | |
