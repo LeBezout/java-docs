@@ -125,6 +125,36 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
 ## Step 6: add some JUnit tests
 
+### Simple test
+
+Simply inject the endpoint and call methods :
+
+```java
+@RunWith(SpringRunner.class)
+@SpringBootTest(webEnvironment = WebEnvironment.NONE)
+public class SampleSoapServiceTest {
+
+  @Autowired
+  private SampleSoapService endpoint;
+	
+  @Test
+  public void test_wsVersion() {
+    String version = endpoint.wsVersion();
+    Assert.assertNotNull(version);
+    Assert.assertTrue(version.length() > 0);
+  }
+	
+  @Test
+  public void test_getEntityById() {
+    MyEntity entity = endpoint.getEntityById();
+    Assert.assertNotNull(entity);
+    // others assertions
+  }
+}
+```
+
+### SOAP test
+
 TODO
 
 ## Step 7: Run & tests
