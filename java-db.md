@@ -1,4 +1,4 @@
-# In-Memory / Java Databases Overview
+# In-Memory Java Databases Overview
 
 ## Main librairies
 
@@ -133,4 +133,4 @@
 
 > `;DB_CLOSE_DELAY=<seconds>` The parameter `<seconds>` specifies the number of seconds to keep a database open after the last connection to it was closed.
 
-> [Database URL Overvieww](http://www.h2database.com/html/features.html#database_url)
+> [Database URL Overview](http://www.h2database.com/html/features.html#database_url)
