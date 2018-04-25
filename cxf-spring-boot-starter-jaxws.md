@@ -18,9 +18,9 @@ In your `pom.xml` file (I let you deduce equivalence for Gradle) :
 </dependency>
 ```
 
-## Step 2: configuration
+## Step 2: optional configuration
 
-In your  `application.properties` file (I let you deduce equivalence for Yaml) :
+In your `application.properties` file (I let you deduce equivalence for Yaml) :
 
 ```properties
 cxf.path=/ws
