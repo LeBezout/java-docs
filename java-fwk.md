@@ -53,7 +53,7 @@
 | - | TestNG | [TestNG](http://testng.org/doc/) | |
 | Red Hat, Inc. | JBoss | [Arquillian](http://arquillian.org/) | |
 | - | jMock | [jMock](http://jmock.org/) | |
-| - | JMockit | [JMockit](http://jmockit.github.io/gettingStarted.html | |
+| - | JMockit | [JMockit](http://jmockit.github.io/gettingStarted.html) | |
 | - | PowerMock | [PowerMock](http://powermock.github.io/) | |
 
 ### Dependency Injection
@@ -63,6 +63,14 @@
 | Pivotal | Spring | [Spring Core](https://projects.spring.io/spring-framework/) | |
 | Apache | DeltaSpike | [DeltaSpike](http://deltaspike.apache.org/) | CDI Implementation |
 | Red Hat, Inc.| JBoss | [Weld](http://weld.cdi-spec.org/) | CDI Reference Implementation |
+| Oracle | GlassFish | [HK2](https://javaee.github.io/hk2/) | Implementation of JSR-330 |
+
+### JSON Mapping
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| Google | goggle-gson | [Gson](https://github.com/google/gson) | |
+| FasterXML, LLC | Jackson | [Jackson](https://github.com/FasterXML/jackson) | |
 
 ### Templating
 
