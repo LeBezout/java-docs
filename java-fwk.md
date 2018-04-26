@@ -62,14 +62,14 @@
 |--------|---------|------|-------------|
 | Pivotal | Spring | [Spring Core](https://projects.spring.io/spring-framework/) | |
 | Apache | DeltaSpike | [DeltaSpike](http://deltaspike.apache.org/) | CDI Implementation |
-| Red Hat, Inc.| JBoss | [Weld](http://weld.cdi-spec.org/) | CDI Reference Implementation |
+| Red Hat, Inc. | JBoss | [Weld](http://weld.cdi-spec.org/) | CDI Reference Implementation |
 | Oracle | GlassFish | [HK2](https://javaee.github.io/hk2/) | Implementation of JSR-330 |
 
 ### JSON Mapping
 
 | Editor | Project | Name | Description |
 |--------|---------|------|-------------|
-| Google | goggle-gson | [Gson](https://github.com/google/gson) | |
+| Google | google-gson | [Gson](https://github.com/google/gson) | |
 | FasterXML, LLC | Jackson | [Jackson](https://github.com/FasterXML/jackson) | |
 
 ### Templating
@@ -80,3 +80,14 @@
 | Apache | FreeMarker | [FreeMarker](https://freemarker.apache.org/) | |
 | Apache | Velocity | [Velocity](http://velocity.apache.org/) | |
 | The Thymeleaf Team | Thymeleaf | [Thymeleaf](https://www.thymeleaf.org/) | |
+
+### Cache
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| Terracotta, Inc. | Ehcache | [Ehcache](http://www.ehcache.org/) | Non distributed |
+| Apache | Apache Commons | [commons-jcs](https://commons.apache.org/proper/commons-jcs/) | Distributed caching system  |
+| Hazelcast, Inc.  | Hazelcast | [Hazelcast](https://hazelcast.com/) | Distributed caching system  |
+| Red Hat, Inc. | Infinispan | [Infinispan](http://infinispan.org/) | Distributed in-memory caching system  |
+
+:bulb: <https://labs.consol.de/java-caches/>
