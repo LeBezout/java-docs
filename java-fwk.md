@@ -55,6 +55,8 @@
 | - | jMock | [jMock](http://jmock.org/) | |
 | - | JMockit | [JMockit](http://jmockit.github.io/gettingStarted.html) | |
 | - | PowerMock | [PowerMock](http://powermock.github.io/) | |
+| Joel Costigliola | AssertJ | [AssertJ](http://joel-costigliola.github.io/assertj/) | |
+| - | FEST-Assert | [FEST-Assert](https://github.com/alexruiz/fest-assert-2.x/wiki/One-minute-starting-guide) | Deprecated, replaced by AspectJ |
 
 ### Dependency Injection
 
