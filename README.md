@@ -2,11 +2,11 @@
 
 _Some Cheat Sheets & Overviews_
 
+* [Java Frameworks Overview](java-fwk.md)
+* [Java In Memory Databases Overview](java-db.md)
 * [Java Logging Frameworks Overview](logging-fwk-comp.md)
 * [JUnit 4 - Tips & Tricks](junit4.md)
 * [JUnit 5 - Cheat Sheet](junit5.md)
-* [Java Databases](java-db.md)
-* [Java Frameworks](java-fwk.md)
 
 _Some tutorials_
 
