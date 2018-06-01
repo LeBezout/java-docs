@@ -44,10 +44,11 @@
 
 | Editor | Project | Name | Description |
 |--------|---------|------|-------------|
-| Apache | Log4J | [Log4J 1](https://logging.apache.org/log4j/1.2/) | End of Life in 2015 |
+| Oracle | Java | [JUL - java.util.logging](https://docs.oracle.com/javase/10/docs/api/java/util/logging/package-summary.html) | JDK Loggign implementation since Java 1.4|
+| Apache | Log4J | [Log4J 1](https://logging.apache.org/log4j/1.2/) | Retired in 2015 |
 | Apache | Log4J | [Log4J 2](https://logging.apache.org/log4j/2.x/manual/) | |
-| QOS.ch Sàrl. | Logback | [Logback](https://logback.qos.ch/) | natively implements the SLF4J API |
 | Apache | Commons | [Commons-Logging](https://commons.apache.org/logging) | |
+| QOS.ch Sàrl. | Logback | [Logback](https://logback.qos.ch/) | natively implements the SLF4J API |
 | QOS.ch Sàrl. | SLF4J | [SLF4J](https://www.slf4j.org/) | Simple Logging Facade for Java |
 
 ### Unit testing
