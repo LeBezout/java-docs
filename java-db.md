@@ -111,6 +111,12 @@
 * [H2 Compatibility page](http://www.h2database.com/html/features.html#compatibility)
 * [HSQLDB Compatibility page](http://hsqldb.org/doc/guide/compatibility-chapt.html)
 
+## Data Types
+
+* [Derby 10.14 Data Types](https://db.apache.org/derby/docs/10.14/ref/crefsqlj31068.html)
+* [HSQLDB Data Types](http://www.hsqldb.org/doc/guide/sqlgeneral-chapt.html#sgc_types_ops)
+* [H2 Data Types](http://www.h2database.com/html/datatypes.html)
+
 ## Remarks
 
 ### Apache Derby
