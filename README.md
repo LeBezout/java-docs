@@ -11,3 +11,4 @@ _Some Cheat Sheets & Overviews_
 _Some tutorials_
 
 * [Spring Boot & JAX-WS with CXF](cxf-spring-boot-starter-jaxws.md)
+* [How to build FormDataBodyPart objects to upload files](jersey2-FormDataBodyPart.md)
