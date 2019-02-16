@@ -252,3 +252,10 @@ public final class FormDataBodyPartBuilder {
   }
 }
 ```
+
+We can use it like this :
+
+```java
+FormDataBodyPart filePart = FormDataBodyPartBuilder.ofFilename("src/test/data/sample.zip").withContentId("attached-file").withContentType("application/zip").build();
+```
+
