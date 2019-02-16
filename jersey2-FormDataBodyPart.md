@@ -25,7 +25,7 @@ But if we use the `getValueAs` or `getEntityAs` methods on the `FormDataBodyPart
 
 :link: [stackoverflow thread](https://stackoverflow.com/questions/14456547/how-to-unit-test-handling-of-incoming-jersey-multipart-requests)
 
-The `BodyPart.getEntityAs` method expects a `BodyPartEntity`....and then it's a little bit touchy !
+The `BodyPart.getEntityAs` method expects a `BodyPartEntity`....and then it's a little bit touchy: to build a `BodyPartEntity` we must provide a `MIMEPart`, to build a `MIMEPart` we must build a `MIMEMessage` (from `org.jvnet.mimepull` API)!
 
 Here is my solution to deal with this issue :
 
