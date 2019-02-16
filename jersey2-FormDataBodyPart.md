@@ -23,9 +23,9 @@ public static FormDataBodyPart buildFormDataBodyPart(File fileToUpload) throws F
 
 But if we use the `getValueAs` or `getEntityAs` methods on the `FormDataBodyPart` to read the data we're facinf this issue.
 
-:link: [stackoverflow thread)[https://stackoverflow.com/questions/14456547/how-to-unit-test-handling-of-incoming-jersey-multipart-requests)]
+:link: (stackoverflow thread)[https://stackoverflow.com/questions/14456547/how-to-unit-test-handling-of-incoming-jersey-multipart-requests)]
 
-The `BodyPart.getEntityAs` method expects a `BodyPartEntity`.
+The `BodyPart.getEntityAs` method expects a `BodyPartEntity`....and then it's a little bit touchy !
 
 Here is my solution to deal with this issue :
 
