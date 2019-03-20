@@ -2,6 +2,7 @@
 
 _Some Cheat Sheets & Overviews_
 
+* [Java Versions Overview](java-versions.md)
 * [Java Frameworks Overview](java-fwk.md)
 * [Java In Memory Databases Overview](java-db.md)
 * [Java Logging Frameworks Overview](logging-fwk-comp.md)
