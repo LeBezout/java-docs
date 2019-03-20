@@ -21,11 +21,11 @@ public static FormDataBodyPart buildFormDataBodyPart(File fileToUpload) throws F
 
 ## IllegalStateException: Entity instance does not contain the unconverted content
 
-But if we use the `getValueAs` or `getEntityAs` methods on the `FormDataBodyPart` to read the data we're facinf this issue.
+But if we use the `getValueAs` or `getEntityAs` methods on the `FormDataBodyPart` to read the data we're facing this issue.
 
 :link: [stackoverflow thread](https://stackoverflow.com/questions/14456547/how-to-unit-test-handling-of-incoming-jersey-multipart-requests)
 
-The `BodyPart.getEntityAs` method expects a `BodyPartEntity`....and then it's a little bit touchy: to build a `BodyPartEntity` we must provide a `MIMEPart`, to build a `MIMEPart` we must build a `MIMEMessage` (from `org.jvnet.mimepull` API)!
+The `BodyPart.getEntityAs` method expects a `BodyPartEntity`....and then it's a little bit touchy. Explanation: to build a `BodyPartEntity` we must provide a `MIMEPart`, to build a `MIMEPart` we must build a `MIMEMessage` (from `org.jvnet.mimepull` API)!
 
 Here is my solution to deal with this issue :
 
@@ -259,3 +259,8 @@ We can use it like this :
 FormDataBodyPart filePart = FormDataBodyPartBuilder.ofFilename("src/test/data/sample.zip").withContentId("attached-file").withContentType("application/zip").build();
 ```
 
+The `pom.xml` extract:
+
+```xml
+TODO
+```
