@@ -66,8 +66,12 @@
 * Auto-boxing
 * For each loops & Iterable
 * Var args
-* java.util.concurent
+* java.util.concurrent
 * Static imports
+* StringBuilder
+* java.util.Scanner
+* XPath
+* ProcessBuilder
 
 ## Java 6.0
 
@@ -75,11 +79,16 @@
 |--------|----------------|-----------|--------------------|
 | Sun Microsystems | 2006-12 | _Mustang_ | `0x32` / `50` |
 
+* Common annotations : `@Generated`, `@PostConstruct`, `@PreDestroy`, `@Resource`, `@Resources`
 * `@Override` for interfaces methods
 * JDBC 4.0
 * ServiceLoader public
 * Desktop
-* JAXB 2, StAX
+* JAXB 2, StAX, JAX-WS
+* Class File Specification Update
+* Queues & Deques
+* String.isEmpty(), Arrays.copyOf(), System.console()
+* `*` support in classpath
 
 ## Java 7
 
