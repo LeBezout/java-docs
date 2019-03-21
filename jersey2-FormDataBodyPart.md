@@ -262,5 +262,19 @@ FormDataBodyPart filePart = FormDataBodyPartBuilder.ofFilename("src/test/data/sa
 The `pom.xml` extract:
 
 ```xml
-TODO
+<dependency>
+  <groupId>org.glassfish.jersey.media</groupId>
+  <artifactId>jersey-media-multipart</artifactId>
+  <version>${jersey.version}</version>
+</dependency>
 ```
+
+:warning: Jersey API versions :
+
+| Jersey Version | Java Version |
+|----------------|--------------|
+| `2.0` -> `2.6` | Java 6 |
+| `2.7` -> `2.25.1` | Java 7 |
+| `2.26` -> `2.28` | Java 8 |
+
+:bulb: [Jersey - Java SE Compatibility](https://jersey.github.io/documentation/latest/modules-and-dependencies.html#d0e560)
