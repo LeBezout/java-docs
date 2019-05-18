@@ -28,6 +28,7 @@
 * HTTP Client
 * Running Single File Source Code
 * TLS 1.3
+* String.repeat(), String.lines(), String.strip(), String.isBlank()
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
 ## Java 10
@@ -37,6 +38,10 @@
 | Oracle Corporation | 2018-03 | `0x36` / `54` |
 
 * Local-variable type inference : `var`
+* Collectors.toUnmodifiableList()
+* List.copyOf()
+* Optional*.orElseThrow()
+* G1GC improvements
 
 ## Java 9
 
@@ -46,7 +51,7 @@
 
 * Modules (Jigsaw)
 * Collections Framework Enhancements
-* Optional Enhancements
+* Optional Enhancements : `ifPresentOrElse()`, `or()`, `stream()`
 * Process API Enhancements
 * JShell
 * HashMap.computeIfAbsent()
