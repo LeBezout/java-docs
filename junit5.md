@@ -30,6 +30,7 @@
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
 | `@ClassRule` | `@ExtendWith` |
+| `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` |
 | :no_entry_sign: | `@DisplayName` |
 | :no_entry_sign: | `@DisplayNameGeneration` (only on class) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
