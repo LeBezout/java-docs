@@ -26,7 +26,7 @@
 | `@BeforeClass` | `@BeforeAll` |
 | `@AfterClass` | `@AfterAll` |
 | `@Ignore` | `@Disabled` |
-| `@Category` | `@Tag` |
+| `@Category(Annot.class)` | `@Tag("string")` |
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
 | `@ClassRule` | `@ExtendWith` |
