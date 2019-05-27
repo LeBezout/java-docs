@@ -21,7 +21,7 @@
 |---------|---------|
 | `@Test(expected = MyException.class)` | `Assertions.assertThrows(MyException.class, () -> { ... });` |
 | `@Test(timeout = 10_000)` | `Assertions.assertTimeout(Duration.ofMillis(10_000), () -> { ... });` |
-| `expectedEx.expect(TechnicalException.class);` + `expectedEx.expectMessage("message");` | `Assertions.assertThrows(MyException.class, () -> { ... }, "message");` |
+| `expectedEx.expect(MyException.class);` + `expectedEx.expectMessage("message");` | `Assertions.assertThrows(MyException.class, () -> { ... }, "message");` |
 | `@Before` | `@BeforeEach` |
 | `@After` | `@AfterEach` |
 | `@BeforeClass` | `@BeforeAll` |
