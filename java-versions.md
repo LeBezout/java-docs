@@ -6,6 +6,9 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2019-09 | `0x39` / `57` |
 
+* Raw String Literals ?
+* Switch expressions v2 ?
+
 ## Java 12
 
 | Vendor | Inception Date | CA FE BA BE Number |
@@ -54,7 +57,7 @@
 * Optional Enhancements : `ifPresentOrElse()`, `or()`, `stream()`
 * Process API Enhancements
 * JShell
-* HashMap.computeIfAbsent()
+* `HashMap.computeIfAbsent()` throws ConcurrentModificationException
 * Stack Walking API
 * Private methods in Interfaces
 
