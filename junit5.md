@@ -91,6 +91,8 @@ TODO
 
 ### Parameterized Tests
 
+Add **junit-jupiter-params** dependency if we don't user **junit-jupiter** aggregator dependency :
+
 ```xml
 <dependencies>
   <dependency>
@@ -169,3 +171,17 @@ void test_something(MyEnum myEnum) {
     // something with myEnum
 }
 ```
+
+### Nested Tests
+
+[@Nested](https://junit.org/junit5/docs/current/user-guide/#writing-tests-nested) :
+
+```java
+class SomeTests {
+    // some tests
+    
+    @Nested
+    class SomeOtherTests() {
+      // some other tests
+    }
+}
