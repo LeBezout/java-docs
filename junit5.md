@@ -35,6 +35,8 @@
 | :no_entry_sign: | `@DisplayName` |
 | :no_entry_sign: | `@DisplayNameGeneration` (only on class) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
+| public class | package private class |
+| public methods | package private methods |
 
 ## Migrating from JUnit 4
 
@@ -62,12 +64,14 @@
   <dependencies>
     <dependency>
         <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter-engine</artifactId>
+        <artifactId>junit-jupiter</artifactId>
         <version>5.4.0</version>
     </dependency>
   </dependencies>
 </build>
 ```
+
+:warning: maven-surefire-plugin version > 2.22.0
 
 ## New
 
@@ -82,3 +86,22 @@
 ### Assumptions
 
 TODO
+
+### Parameterized Tests
+
+```java
+@ParameterizedTest
+@ValueSource(strongs = { "v1", "v2", "v3" })  // for non null parameters
+@NullSource // for null parameter
+void test_something(String param) {
+    // something with pâram
+}
+```
+
+```java
+@ParameterizedTest(name = "test for param {0} of value {1}")
+@CsvSource(value = # "param1;value1", "param2,value2" }, delimiter=";")
+void test_something(String arg1, String arg2) {
+    // something with pâram
+}
+```
