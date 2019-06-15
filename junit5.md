@@ -87,11 +87,15 @@
 
 ### Assumptions
 
-TODO
+> [Assumptions](https://junit.org/junit5/docs/current/user-guide/#writing-tests-assumptions) signal that a test should be aborted instead of marked as a failure, and are static methods in the `org.junit.jupiter.api.Assertions` class :
+
+* assumeTrue
+* assumeFalse
+* assumingThat
 
 ### Parameterized Tests
 
-Add **junit-jupiter-params** dependency if we don't user **junit-jupiter** aggregator dependency :
+Add **junit-jupiter-params** dependency if we don't use **junit-jupiter** aggregator dependency :
 
 ```xml
 <dependencies>
