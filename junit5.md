@@ -9,11 +9,13 @@
 ```xml
 <dependency>
     <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.4.0</version>
+    <artifactId>junit-jupiter</artifactId>
+    <version>5.4.2</version>
     <scope>test</scope>
 </dependency>
 ```
+
+> :bulb: JUnit Jupiter aggregator artifact that transitively pulls in dependencies on `junit-jupiter-api`, `junit-jupiter-params`, and `junit-jupiter-engine` for simplified dependency management in build tools such as Gradle and Maven.
 
 ## JUnit 4 vs JUnit 5
 
@@ -46,7 +48,7 @@
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
-    <version>5.4.0</version>
+    <version>5.4.2</version>
 </dependency>
 ```
 
@@ -61,14 +63,14 @@
       <version>2.22.1</version>
     </plugin>
   </plugins>
-  <dependencies>
-    <dependency>
-        <groupId>org.junit.jupiter</groupId>
-        <artifactId>junit-jupiter</artifactId>
-        <version>5.4.0</version>
-    </dependency>
-  </dependencies>
 </build>
+<dependencies>
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-engine</artifactId>
+    <version>5.4.2</version>
+  </dependency>
+</dependencies>
 ```
 
 :warning: maven-surefire-plugin version > 2.22.0
@@ -89,19 +91,81 @@ TODO
 
 ### Parameterized Tests
 
+```xml
+<dependencies>
+  <dependency>
+    <groupId>org.junit.jupiter</groupId>
+    <artifactId>junit-jupiter-params</artifactId>
+  </dependency>
+</dependencies>
+```
+
+[@ValueSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-ValueSource) / [@EmptySource / @NullSource / @NullAndEmptySource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-null-and-empty) : 
+
 ```java
 @ParameterizedTest
 @ValueSource(strongs = { "v1", "v2", "v3" })  // for non null parameters
 @NullSource // for null parameter
 void test_something(String param) {
-    // something with pâram
+    // something with param
 }
 ```
+[@CsvSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-CsvSource) :
 
 ```java
 @ParameterizedTest(name = "test for param {0} of value {1}")
 @CsvSource(value = # "param1;value1", "param2,value2" }, delimiter=";")
 void test_something(String arg1, String arg2) {
-    // something with pâram
+    // something with param
+}
+```
+
+[@CsvFileSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-CsvFileSource) :
+
+```java
+@ParameterizedTest
+@CsvFileSource(resources = "/data.csv", numLinesToSkip = 1)
+void test_something(String col1, int col2) {
+    // something with col1 & col2
+}
+```
+
+[@MethodSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-MethodSource) :
+
+```java
+@ParameterizedTest
+@MethodSource("myBeanSupplier")
+void test_something(MyBean myBean) {
+    // something with myBean
+}
+
+static Stream<MyBean> myBeanSupplier() {
+    return Stream.of(
+     // TODO
+    );
+}
+```
+
+```java
+@ParameterizedTest
+@MethodSource("myArgsSupplier")
+void test_something(Arg1 arg1, Arg2 arg2) {
+    // something with arg1 & arg2
+}
+
+static Stream<Arguments> myArgsSupplier() {
+    return Stream.of(
+      Arguments.arguments(new Arg1(), new Arg2())
+    );
+}
+```
+
+[@EnumSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-EnumSource) :
+
+```java
+@ParameterizedTest
+@EnumSource(MyEnum.class)
+void test_something(MyEnum myEnum) {
+    // something with myEnum
 }
 ```
