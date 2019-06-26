@@ -8,9 +8,11 @@
 * [Hyper SQL DB](http://hsqldb.org/) - [Getting started](http://hsqldb.org/doc/2.0/guide/index.html)
 * [H2 Database Engine](http://www.h2database.com/) - [Getting started](http://www.h2database.com/html/quickstart.html) - [Cheat Sheet](http://www.h2database.com/html/cheatSheet.html)
 
-## Maven Dependencies
+## Configuration
 
-### Apache Derby
+### Maven Dependencies
+
+#### Apache Derby
 
 ```xml
 <dependency>
@@ -21,7 +23,7 @@
 </dependency>
 ```
 
-### Hyper SQL
+#### Hyper SQL
 
 ```xml
 <dependency>
@@ -32,7 +34,7 @@
 </dependency>
 ```
 
-### H2
+#### H2
 
 ```xml
 <dependency>
@@ -43,17 +45,7 @@
 </dependency>
 ```
 
-## Overview
-
-| Item              | Apache Derby | Hyper SQL DB | H2 Database Engine |
-|-------------------|--------------|--------------|--------------------|
-| Driver Class name | `org.apache.derby.jdbc.EmbeddedDriver` | `org.hsqldb.jdbc.JDBCDriver` | `org.h2.Driver` |
-| Hibernate Dialect | `org.hibernate.dialect.DerbyDialect` | `org.hibernate.dialect.HSQLDialect` | `org.hibernate.dialect.H2Dialect` |
-| Create file database | `jdbc:derby:target/junit/db/my_db;create=true` | `jdbc:hsqldb:file:target/junit/db/my_db;create=true` | `jdbc:h2:file:target/junit/db/my_db` |
-| Create memory database | `jdbc:derby:memory:my_db;create=true` | `jdbc:hsqldb:mem:my_db` | `jdbc:h2:mem:my_db` |
-| Shutdown database | `jdbc:derby:target/junit/db/my_db;shutdown=true` |  `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | database is closed when the last connection to it is closed |
-
-## Drivers
+### Drivers
 
 | Librairy | Driver Class name |
 |----------|-------------------|
@@ -61,7 +53,7 @@
 | **Hyper SQL DB** | `org.hsqldb.jdbc.JDBCDriver` |
 | **H2 Database Engine** | `org.h2.Driver` |
 
-## Hibernate Dialect
+### Hibernate Dialect
 
 | Librairy | Dialect Class name |
 |----------|--------------------|
@@ -69,17 +61,17 @@
 | **Hyper SQL DB** | `org.hibernate.dialect.HSQLDialect` |
 | **H2 Database Engine** | `org.hibernate.dialect.H2Dialect` |
 
-## Create database
+### Create database
 
-### File
+#### File
 
 | Librairy | JDBC String | User | Password |
 |----------|-------------|------|----------|
 | **Apache Derby** | `jdbc:derby:target/junit/db/my_db;create=true` | :no_entry_sign: | :no_entry_sign: |
-| **Hyper SQL DB** | `jdbc:hsqldb:file:target/junit/db/my_db;create=true` | `SA` | :no_entry_sign: |
-| **H2 Database Engine** | `jdbc:h2:file:target/junit/db/my_db` | `sa` | :no_entry_sign: |
+| **Hyper SQL DB** | `jdbc:hsqldb:file:./target/junit/db/my_db;create=true` | `SA` | :no_entry_sign: |
+| **H2 Database Engine** | `jdbc:h2:file:./target/junit/db/my_db` | `sa` | :no_entry_sign: |
 
-### In-Memory
+#### In-Memory
 
 | Librairy | JDBC String | User | Password |
 |----------|-------------|------|----------|
@@ -87,7 +79,7 @@
 | **Hyper SQL DB** | `jdbc:hsqldb:mem:my_db` | `SA` | :no_entry_sign: |
 | **H2 Database Engine** | `jdbc:h2:mem:my_db` | `sa` | :no_entry_sign: |
 
-## Shutdown database
+### Shutdown database
 
 | Librairy | JDBC String | User | Password |
 |----------|-------------|------|----------|
@@ -95,7 +87,7 @@
 | **Hyper SQL DB** | `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | `SA` | :no_entry_sign: |
 | **H2 Database Engine** | database is closed when the last connection to it is closed | :no_entry_sign: | :no_entry_sign: |
 
-## Compatibility Modes
+### Compatibility Modes
 
 | DBMS Provider | Apache Derby | Hyper SQL DB | H2 Database Engine |
 |-------------|--------------|--------------|--------------------|
@@ -108,14 +100,25 @@
 | HSQLDB | :no_entry_sign: | :no_entry: | `MODE=HSQLDB` |
 | H2 | :no_entry_sign: | :no_entry_sign: |  :no_entry: |
 
-* [H2 Compatibility page](http://www.h2database.com/html/features.html#compatibility)
-* [HSQLDB Compatibility page](http://hsqldb.org/doc/guide/compatibility-chapt.html)
+* :link: [H2 Compatibility page](http://www.h2database.com/html/features.html#compatibility)
+* :link: [HSQLDB Compatibility page](http://hsqldb.org/doc/guide/compatibility-chapt.html)
+
+
+### Liquibase Type Name
+
+| Librairy | Type Name |
+|----------|-----------|
+| **Apache Derby** | `derby` |
+| **Hyper SQL DB** | `hsqldb` |
+| **H2 Database Engine** | `h2` |
+
+:link: <https://www.liquibase.org/databases.html>
 
 ## Data Types
 
-* [Derby 10.14 Data Types](https://db.apache.org/derby/docs/10.14/ref/crefsqlj31068.html)
-* [HSQLDB Data Types](http://www.hsqldb.org/doc/guide/sqlgeneral-chapt.html#sgc_types_ops)
-* [H2 Data Types](http://www.h2database.com/html/datatypes.html)
+* :link: [Derby 10.14 Data Types](https://db.apache.org/derby/docs/10.14/ref/crefsqlj31068.html)
+* :link: [HSQLDB Data Types](http://www.hsqldb.org/doc/guide/sqlgeneral-chapt.html#sgc_types_ops)
+* :link: [H2 Data Types](http://www.h2database.com/html/datatypes.html)
 
 ## Remarks
 
@@ -139,4 +142,4 @@
 
 > `;DB_CLOSE_DELAY=<seconds>` The parameter `<seconds>` specifies the number of seconds to keep a database open after the last connection to it was closed.
 
-> [Database URL Overview](http://www.h2database.com/html/features.html#database_url)
+> :link: [Database URL Overview](http://www.h2database.com/html/features.html#database_url)
