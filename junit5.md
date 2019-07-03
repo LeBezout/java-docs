@@ -23,7 +23,7 @@
 |---------|---------|
 | `@Test(expected = MyException.class)` | `Assertions.assertThrows(MyException.class, () -> { ... });` |
 | `@Test(timeout = 10_000)` | `Assertions.assertTimeout(Duration.ofMillis(10_000), () -> { ... });` |
-| `expectedEx.expect(MyException.class);` + `expectedEx.expectMessage("message");` | `Assertions.assertThrows(MyException.class, () -> { ... }, "message");` |
+| `expectedEx.expect(MyException.class);` + `expectedEx.expectMessage("message");` | `MyException ex = Assertions.assertThrows(MyException.class, () -> { ... }); Assertions.assertEquals("message", ex.getMessage());` |
 | `@Before` | `@BeforeEach` |
 | `@After` | `@AfterEach` |
 | `@BeforeClass` | `@BeforeAll` |
