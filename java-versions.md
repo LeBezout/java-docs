@@ -88,6 +88,7 @@
 * Switch String
 * Try with resources
 * Try multi-catch (`|`)
+* ForkJoinPool
 * JDBC 4.0
 * java.nio.Files
 * Binary integer literals, underscores in numeric literals
