@@ -2,20 +2,32 @@
 
 ## Requirements
 
-* Java 8
+* Java 8 or higher
 
 * Dependency :
 
 ```xml
 <dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter</artifactId>
-    <version>5.4.2</version>
-    <scope>test</scope>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter</artifactId>
+  <version>5.4.2</version>
+  <scope>test</scope>
 </dependency>
 ```
 
 > :bulb: JUnit Jupiter aggregator artifact that transitively pulls in dependencies on `junit-jupiter-api`, `junit-jupiter-params`, and `junit-jupiter-engine` for simplified dependency management in build tools such as Gradle and Maven.
+
+* Dependency Management :
+
+```xml
+<dependency>
+  <groupId>org.junit</groupId>
+  <artifactId>junit-bom</artifactId>
+  <version>5.4.2</version>
+  <type>pom</type>
+  <scope>import</scope>
+</dependency>
+```
 
 ## JUnit 4 vs JUnit 5
 
