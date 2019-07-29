@@ -6,8 +6,10 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2019-09 | `0x39` / `57` |
 
-* Raw String Literals ?
-* Switch expressions v2 ?
+* Raw String Literals V1
+* Switch expressions V2
+* Socket API V2
+* Dynamic CDS Archives
 
 ## Java 12
 
