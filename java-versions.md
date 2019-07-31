@@ -61,6 +61,7 @@
 * JShell
 * `HashMap.computeIfAbsent()` throws ConcurrentModificationException
 * Stack Walking API
+* Flow "Reactive" API
 * Private methods in Interfaces
 
 ## Java 8 - **LTS**
