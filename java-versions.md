@@ -10,6 +10,7 @@
 * Switch expressions V2
 * Socket API V2
 * Dynamic CDS Archives
+* Unicode 12.1
 
 ## Java 12
 
@@ -17,7 +18,8 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2019-03 | `0x38` / `56` |
 
-* Switch expressions
+* Raw String Literals V0
+* Switch expressions V1
 * Microbenchmark
 * Compact Number Format
 * Files.mismatch()
