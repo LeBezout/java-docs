@@ -1,5 +1,29 @@
 # Java SE versions Overview
 
+## Java 17 - **LTS**
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2021-09 | `0x3D` / `61` |
+
+## Java 16
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2021-04 | `0x3C` / `60` |
+
+## Java 15
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2020-09 | `0x3B` / `59` |
+
+## Java 14
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2020-04 | `0x3A` / `58` |
+
 ## Java 13
 
 | Vendor | Inception Date | CA FE BA BE Number |
