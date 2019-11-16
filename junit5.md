@@ -44,6 +44,7 @@
 | `@Category(Annot.class)` | `@Tag("string")` |
 | `@RunWith` | `@ExtendWith` |
 | `@Rule` | `@ExtendWith` |
+| `@Rule public TestName testName = new TestName();` | Inject `TestInfo` as method parameter |
 | `@ClassRule` | `@ExtendWith` |
 | `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` |
 | :no_entry_sign: | `@DisplayName` |
