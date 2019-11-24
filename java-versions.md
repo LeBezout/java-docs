@@ -24,14 +24,18 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2020-04 | `0x3A` / `58` |
 
+* Pattern Matching for instanceof (Preview)
+* Records (Preview V1)
+* Text Blocks / Raw String Literals (Preview V2)
+
 ## Java 13
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
 | Oracle Corporation | 2019-09 | `0x39` / `57` |
 
-* Raw String Literals V1
-* Switch expressions V2
+* Text Blocks / Raw String Literals (Preview V1)
+* Switch expressions (Preview V2)
 * Socket API V2
 * Dynamic CDS Archives
 * Unicode 12.1
@@ -42,8 +46,8 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2019-03 | `0x38` / `56` |
 
-* Raw String Literals V0
-* Switch expressions V1
+* Raw String Literals (Preview)
+* Switch expressions (Preview V1)
 * Microbenchmark
 * Compact Number Format
 * Files.mismatch()
