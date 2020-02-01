@@ -27,6 +27,8 @@
 * Pattern Matching for instanceof (Preview)
 * Records (Preview V1)
 * Text Blocks / Raw String Literals (Preview V2)
+* Better NPE messages
+* Switch expressions
 
 ## Java 13
 
