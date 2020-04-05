@@ -18,6 +18,11 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2020-09 | `0x3B` / `59` |
 
+* Text Blocks / Raw String Literals
+* Nashorn removal
+* Z & Shenandoah GC
+* Hidden Classes
+
 ## Java 14
 
 | Vendor | Inception Date | CA FE BA BE Number |
