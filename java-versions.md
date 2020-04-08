@@ -100,6 +100,7 @@
 * Stack Walking API
 * Flow "Reactive" API
 * Private methods in Interfaces
+* JVM options GNU Styles (ex: `--help, --class-path`)
 
 ## Java 8 - **LTS**
 
