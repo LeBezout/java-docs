@@ -22,6 +22,7 @@
 * Nashorn removal
 * Z & Shenandoah GC
 * Hidden Classes
+* Helpful NullPointerException
 
 ## Java 14
 
@@ -32,7 +33,7 @@
 * Pattern Matching for instanceof (Preview)
 * Records (Preview V1)
 * Text Blocks / Raw String Literals (Preview V2)
-* Better NPE messages
+* Helpful NullPointerException (Preview)
 * Switch expressions
 
 ## Java 13
