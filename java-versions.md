@@ -58,8 +58,8 @@
 * Switch expressions (Preview V1)
 * Microbenchmark
 * Compact Number Format
-* Files.mismatch()
-* String.indent(), String.transform()
+* `Files.mismatch()`
+* `String.indent()`, `String.transform()`
 
 ## Java 11 - **LTS**
 
@@ -71,7 +71,7 @@
 * HTTP Client
 * Running Single File Source Code
 * TLS 1.3
-* String.repeat(), String.lines(), String.strip(), String.isBlank()
+* `String.repeat()`, `String.lines()`, `String.strip()`, `String.isBlank()`
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
 ## Java 10
@@ -82,7 +82,7 @@
 
 * Local-variable type inference : `var`
 * Collectors.toUnmodifiableList()
-* List.copyOf()
+* `List.copyOf()`
 * Optional*.orElseThrow()
 * G1GC improvements
 
@@ -102,6 +102,7 @@
 * Flow "Reactive" API
 * Private methods in Interfaces
 * JVM options GNU Styles (ex: `--help, --class-path`)
+* `System.getLogger()`
 
 ## Java 8 - **LTS**
 
@@ -116,7 +117,7 @@
 * Interfaces with `static` methods
 * Date & Time API (ex-Joda time)
 * JDBC 4.2
-* String.join() / StringJoiner
+* `String.join()` / StringJoiner
 * Repeating annotations
 * MetaSpace
 
