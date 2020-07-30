@@ -18,10 +18,12 @@
 <dependency>
   <groupId>org.apache.derby</groupId>
   <artifactId>derby</artifactId>
-  <version>10.14.1.0</version>
+   <version>10.15.2.0</version>
   <scope>test</scope>
 </dependency>
 ```
+
+:link: <https://search.maven.org/artifact/org.apache.derby/derby/10.15.2.0/jar>
 
 #### Hyper SQL
 
@@ -29,10 +31,12 @@
 <dependency>
   <groupId>org.hsqldb</groupId>
   <artifactId>hsqldb</artifactId>
-  <version>2.4.0</version>
+  <version>2.5.1</version>
   <scope>test</scope>
 </dependency>
 ```
+
+:link: <https://search.maven.org/artifact/org.hsqldb/hsqldb/2.5.1/jar>
 
 #### H2
 
@@ -40,10 +44,12 @@
 <dependency>
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>1.4.196</version>
+  <version>1.4.200</version>
   <scope>test</scope>
 </dependency>
 ```
+
+:link: <https://search.maven.org/artifact/com.h2database/h2/1.4.200/jar>
 
 ### Drivers
 
@@ -116,7 +122,7 @@
 
 ## Data Types
 
-* :link: [Derby 10.14 Data Types](https://db.apache.org/derby/docs/10.14/ref/crefsqlj31068.html)
+* :link: [Derby 10.15 Data Types](https://db.apache.org/derby/docs/10.15/ref/crefsqlj31068.html)
 * :link: [HSQLDB Data Types](http://www.hsqldb.org/doc/guide/sqlgeneral-chapt.html#sgc_types_ops)
 * :link: [H2 Data Types](http://www.h2database.com/html/datatypes.html)
 
