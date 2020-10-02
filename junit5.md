@@ -51,7 +51,7 @@
 | :no_entry_sign: | `@DisplayNameGeneration` (only on class - @since 5.4) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
 | public class | package private class |
-| public methods | package private methods |
+| public methods | package private methods |
 
 ## Migrating from JUnit 4
 
@@ -198,7 +198,7 @@ class SomeTests {
     // some tests
     
     @Nested
-    class SomeOtherTests() {
+    class SomeOtherTests {
       // some other tests
     }
 }
