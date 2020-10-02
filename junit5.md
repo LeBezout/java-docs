@@ -46,7 +46,7 @@
 | `@Rule` | `@ExtendWith` |
 | `@Rule public TestName testName = new TestName();` | Inject `TestInfo` as method parameter |
 | `@ClassRule` | `@ExtendWith` |
-| `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` |
+| `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` (@since 5.4) |
 | :no_entry_sign: | `@DisplayName` |
 | :no_entry_sign: | `@DisplayNameGeneration` (only on class) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
@@ -111,19 +111,17 @@
 Add **junit-jupiter-params** dependency if we don't use **junit-jupiter** aggregator dependency :
 
 ```xml
-<dependencies>
-  <dependency>
-    <groupId>org.junit.jupiter</groupId>
-    <artifactId>junit-jupiter-params</artifactId>
-  </dependency>
-</dependencies>
+<dependency>
+  <groupId>org.junit.jupiter</groupId>
+  <artifactId>junit-jupiter-params</artifactId>
+</dependency>
 ```
 
 [@ValueSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-ValueSource) / [@EmptySource / @NullSource / @NullAndEmptySource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-null-and-empty) : 
 
 ```java
 @ParameterizedTest
-@ValueSource(strongs = { "v1", "v2", "v3" })  // for non null parameters
+@ValueSource(strings = { "v1", "v2", "v3" })  // for non null parameters
 @NullSource // for null parameter
 void test_something(String param) {
     // something with param
