@@ -48,7 +48,7 @@
 | `@ClassRule` | `@ExtendWith` |
 | `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` (@since 5.4) |
 | :no_entry_sign: | `@DisplayName` |
-| :no_entry_sign: | `@DisplayNameGeneration` (only on class) |
+| :no_entry_sign: | `@DisplayNameGeneration` (only on class - @since 5.4) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
 | public class | package private class |
 | public methods | package private methods |
@@ -116,6 +116,8 @@ Add **junit-jupiter-params** dependency if we don't use **junit-jupiter** aggreg
   <artifactId>junit-jupiter-params</artifactId>
 </dependency>
 ```
+
+:warning: **Use `@ParameterizedTest` instead of `@Test`, not both. Otherwise JUnit throw a `ParameterResolutionException`**
 
 [@ValueSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-ValueSource) / [@EmptySource / @NullSource / @NullAndEmptySource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-null-and-empty) : 
 
