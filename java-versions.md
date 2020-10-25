@@ -57,7 +57,7 @@
 * Raw String Literals (Preview)
 * Switch expressions (Preview V1)
 * Microbenchmark
-* Compact Number Format
+* [Compact Number Format](https://bugs.openjdk.java.net/browse/JDK-8188147)
 * `Files.mismatch()`
 * `String.indent()`, `String.transform()`
 
