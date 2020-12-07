@@ -12,7 +12,7 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2021-04 | `0x3C` / `60` |
 
-## Java 15
+## [Java 15](http://openjdk.java.net/projects/jdk/15/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -28,7 +28,7 @@
 * Sealed Classes
 * `charSequence.isEmpty()`
 
-## Java 14
+## [Java 14](http://openjdk.java.net/projects/jdk/14/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -40,7 +40,7 @@
 * Helpful NullPointerException (Preview)
 * Switch expressions
 
-## Java 13
+## [Java 13](http://openjdk.java.net/projects/jdk/13/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -52,7 +52,7 @@
 * Dynamic CDS Archives
 * Unicode 12.1
 
-## Java 12
+## [Java 12](http://openjdk.java.net/projects/jdk/12/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -65,7 +65,7 @@
 * `Files.mismatch()`
 * `String.indent()`, `String.transform()`
 
-## Java 11 - **LTS**
+## [Java 11](http://openjdk.java.net/projects/jdk/11/) - **LTS**
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -78,7 +78,7 @@
 * `String.repeat()`, `String.lines()`, `String.strip()`, `String.isBlank()`
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
-## Java 10
+## [Java 10](http://openjdk.java.net/projects/jdk/10/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -90,7 +90,7 @@
 * Optional*.orElseThrow()
 * G1GC improvements
 
-## Java 9
+## [Java 9](https://openjdk.java.net/projects/jdk9/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -108,7 +108,7 @@
 * JVM options GNU Styles (ex: `--help, --class-path`)
 * `System.getLogger()`
 
-## Java 8 - **LTS**
+## [Java 8](https://openjdk.java.net/projects/jdk8/) - **LTS**
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -125,7 +125,7 @@
 * Repeating annotations
 * MetaSpace
 
-## Java 7
+## [Java 7](https://openjdk.java.net/projects/jdk7/)
 
 | Vendor | Inception Date | Code name | CA FE BA BE Number |
 |--------|----------------|-----------|--------------------|
@@ -140,7 +140,7 @@
 * java.nio.Files
 * Binary integer literals, underscores in numeric literals
 
-## Java 6.0
+## [Java 6.0](https://openjdk.java.net/projects/jdk6/)
 
 | Vendor | Inception Date | Code name | CA FE BA BE Number |
 |--------|----------------|-----------|--------------------|
