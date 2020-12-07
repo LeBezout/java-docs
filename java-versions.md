@@ -18,11 +18,15 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2020-09 | `0x3B` / `59` |
 
+* Records (Preview V2)
+* Pattern Matching for instanceof (Preview V2)
 * Text Blocks / Raw String Literals
 * Nashorn removal
 * Z & Shenandoah GC
-* Hidden Classes
+* Optimized `StringConcatFactory`
 * Helpful NullPointerException
+* Sealed Classes
+* `charSequence.isEmpty()`
 
 ## Java 14
 
@@ -30,7 +34,7 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2020-04 | `0x3A` / `58` |
 
-* Pattern Matching for instanceof (Preview)
+* Pattern Matching for instanceof (Preview V1)
 * Records (Preview V1)
 * Text Blocks / Raw String Literals (Preview V2)
 * Helpful NullPointerException (Preview)
