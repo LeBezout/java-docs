@@ -6,11 +6,15 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2021-09 | `0x3D` / `61` |
 
-## Java 16
+## [Java 16](http://openjdk.java.net/projects/jdk/16/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
 | Oracle Corporation | 2021-04 | `0x3C` / `60` |
+
+* Sealed Classes (Preview V2)
+* Records
+* Pattern Matching for instanceof 
 
 ## [Java 15](http://openjdk.java.net/projects/jdk/15/)
 
@@ -18,6 +22,7 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2020-09 | `0x3B` / `59` |
 
+* Sealed Classes (Preview V1)
 * Records (Preview V2)
 * Pattern Matching for instanceof (Preview V2)
 * Text Blocks / Raw String Literals
@@ -25,7 +30,6 @@
 * Z & Shenandoah GC
 * Optimized `StringConcatFactory`
 * Helpful NullPointerException
-* Sealed Classes
 * `charSequence.isEmpty()`
 
 ## [Java 14](http://openjdk.java.net/projects/jdk/14/)
