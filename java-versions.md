@@ -23,6 +23,7 @@
 | Oracle Corporation | 2020-09 | `0x3B` / `59` |
 
 * Sealed Classes (Preview V1)
+* Hidden Classes
 * Records (Preview V2)
 * Pattern Matching for instanceof (Preview V2)
 * Text Blocks / Raw String Literals
