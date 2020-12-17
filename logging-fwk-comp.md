@@ -97,8 +97,8 @@
 
 | JDK Logging | Log4J 1 | Log4J 2 | Commons-Logging | SLF4J |
 |-------------|---------|---------|-----------------|-------|
-| :no_entry_sign: | NDC | ThreadContext | :no_entry_sign: | :no_entry_sign: |
-| :no_entry_sign: | MDC | :no_entry_sign: | :no_entry_sign: | MDC |
+| :no_entry_sign: | NDC | [ThreadContext](https://logging.apache.org/log4j/2.x/manual/thread-context.html) | :no_entry_sign: | :no_entry_sign: |
+| :no_entry_sign: | MDC | [ThreadContext](https://logging.apache.org/log4j/2.x/manual/thread-context.html) | :no_entry_sign: | [MDC][http://logback.qos.ch/manual/mdc.html) |
 
 ## Links
 
