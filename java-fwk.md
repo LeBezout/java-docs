@@ -16,6 +16,8 @@
 
 ### JAX-WS
 
+* :book: [JSR 224: Java API for XML-Based Web Services (JAX-WS) 2.0](https://jcp.org/en/jsr/detail?id=224)
+
 | Editor | Project | Name | Description |
 |--------|---------|------|-------------|
 | Apache | CXF | [CXF](http://cxf.apache.org/) | |
@@ -24,6 +26,10 @@
 | Red Hat, Inc. | JBoss | [JBoss WS](http://jbossws.jboss.org/) | |
 
 ### JAX-RS
+
+* :book: [JSR 311: JAX-RS: The Java API for RESTful Web Services](https://jcp.org/en/jsr/detail?id=311)
+* :book: [JSR 339: JAX-RS 2.0: The Java API for RESTful Web Services](https://jcp.org/en/jsr/detail?id=339)
+* :book: [JSR 370: JAX-RS 2.1: The Java API for RESTful Web Services](https://jcp.org/en/jsr/detail?id=370)
 
 | Editor | Project | Name | Description |
 |--------|---------|------|-------------|
@@ -69,6 +75,28 @@
 | Red Hat, Inc. | JBoss | [Hibernate Validator](http://hibernate.org/validator/) | Reference Implementation |
 | Apache | Tapestry | [Tapestry Bean Validation](https://tapestry.apache.org/bean-validation.html) | |
 
+### Dependency Injection
+
+* :book: [JSR 299: Contexts and Dependency Injection for the Java EE platform](https://jcp.org/en/jsr/detail?id=299)
+* :book: [JSR 330: Dependency Injection for Java](https://jcp.org/en/jsr/detail?id=330)
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| Pivotal | Spring Framework | [Spring Core](https://projects.spring.io/spring-framework/) | |
+| Apache | DeltaSpike | [DeltaSpike](http://deltaspike.apache.org/) | CDI Implementation |
+| Red Hat, Inc. | JBoss | [Weld](http://weld.cdi-spec.org/) | CDI Reference Implementation |
+| Oracle | GlassFish | [HK2](https://javaee.github.io/hk2/) | Implementation of JSR-330 |
+| Google | | [Guice](https://github.com/google/guice) | |
+
+### Security
+
+* :book: [JSR 375: Java EE Security API](https://jcp.org/en/jsr/detail?id=375)
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| The Eclipse Foundation | EE4J | [Soteria](https://github.com/eclipse-ee4j/soteriay) | |
+| Pivotal | Spring Framework | [Spring Security](https://spring.io/projects/spring-security) | |
+
 ## By domain
 
 ### Logging
@@ -99,15 +127,6 @@
 | - | PowerMock | [PowerMock](http://powermock.github.io/) | |
 | Joel Costigliola | AssertJ | [AssertJ](http://joel-costigliola.github.io/assertj/) | |
 | - | FEST-Assert | [FEST-Assert](https://github.com/alexruiz/fest-assert-2.x/wiki/One-minute-starting-guide) | Deprecated, replaced by AspectJ |
-
-### Dependency Injection
-
-| Editor | Project | Name | Description |
-|--------|---------|------|-------------|
-| Pivotal | Spring Framework | [Spring Core](https://projects.spring.io/spring-framework/) | |
-| Apache | DeltaSpike | [DeltaSpike](http://deltaspike.apache.org/) | CDI Implementation |
-| Red Hat, Inc. | JBoss | [Weld](http://weld.cdi-spec.org/) | CDI Reference Implementation |
-| Oracle | GlassFish | [HK2](https://javaee.github.io/hk2/) | Implementation of JSR-330 |
 
 ### JSON Mapping
 
