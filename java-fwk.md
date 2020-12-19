@@ -2,7 +2,10 @@
 
 ## By specifications
 
-### JPA
+### JPA - Java Persistance API
+
+* :book: [JSR 317: Java Persistence 2.0](https://www.jcp.org/en/jsr/detail?id=317)
+* :book: [JSR 338: Java Persistence 2.2](https://jcp.org/en/jsr/detail?id=338)
 
 | Editor | Project | Name | Description |
 |--------|---------|------|-------------|
@@ -26,17 +29,45 @@
 |--------|---------|------|-------------|
 | Red Hat, Inc. | JBoss | [RESTEasy](http://resteasy.jboss.org/) | |
 | Oracle | GlassFish | [Jersey](https://jersey.github.io/) | Old Reference Implementation |
-| The Eclipse Foundation | EE4J | [Jersey](https://projects.eclipse.org/projects/ee4j.jersey) | New Reference Implementation |
+| The Eclipse Foundation | EE4J | [Jersey](https://projects.eclipse.org/projects/ee4j.jersey) | Current Reference Implementation |
 | Apache | CXF | [CXF](http://cxf.apache.org/) | |
 | Pivotal | Spring | [Spring MVC](https://docs.spring.io/spring/docs/current/spring-framework-reference/web.html) | |
 
-### JTA
+### JTA - Java Transaction API
+
+* :book: [JSR 907: Java Transaction API (JTA)](https://jcp.org/en/jsr/detail?id=907)
 
 | Editor | Project | Name | Description |
 |---------|--------|-----|--------------|
 | Atomikos BVBA | Atomikos | [Atomikos](https://www.atomikos.com/) | |
 | - | Bitronix | [BTM](https://github.com/bitronix/btm) | |
 | Red Hat, Inc. | JBoss | [Narayana](http://narayana.io/) | |
+
+### JCache - Java Cache API
+
+* :book: [JSR 107: JCACHE - Java Temporary Caching API](https://jcp.org/en/jsr/detail?id=107)
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| Terracotta, Inc. | Ehcache | [Ehcache](http://www.ehcache.org/) | Non distributed |
+| Apache | Commons | [commons-jcs](https://commons.apache.org/proper/commons-jcs/) | Distributed caching system  |
+| Hazelcast, Inc.  | Hazelcast | [Hazelcast](https://hazelcast.com/) | Distributed caching system  |
+| Red Hat, Inc. | Infinispan | [Infinispan](http://infinispan.org/) | Distributed in-memory caching system  |
+| Oracle | [Coherence]( | [Coherence JCache](https://coherence.community/) | Local Cache, Partitioned Cache, Pass-Through Cache, Remote Cache |
+
+:bulb: <https://labs.consol.de/java-caches/>
+
+### Bean Validation
+
+* :book: [JSR 303: Bean Validation 1.0](https://jcp.org/en/jsr/detail?id=303)
+* :book: [JSR 303: Bean Validation 1.1](https://jcp.org/en/jsr/detail?id=349)
+* :book: [JSR 380: Bean Validation 2.0](https://jcp.org/en/jsr/detail?id=380)
+* :book: [Jakarta Bean Validation](https://beanvalidation.org/2.0-jsr380/)
+
+| Editor | Project | Name | Description |
+|--------|---------|------|-------------|
+| Red Hat, Inc. | JBoss | [Hibernate Validator](http://hibernate.org/validator/) | Reference Implementation |
+| Apache | Tapestry | [Tapestry Bean Validation](https://tapestry.apache.org/bean-validation.html) | |
 
 ## By domain
 
@@ -93,18 +124,6 @@
 | Apache | FreeMarker | [FreeMarker](https://freemarker.apache.org/) | |
 | Apache | Velocity | [Velocity](http://velocity.apache.org/) | |
 | The Thymeleaf Team | Thymeleaf | [Thymeleaf](https://www.thymeleaf.org/) | |
-
-### Cache
-
-| Editor | Project | Name | Description |
-|--------|---------|------|-------------|
-| Terracotta, Inc. | Ehcache | [Ehcache](http://www.ehcache.org/) | Non distributed |
-| Apache | Commons | [commons-jcs](https://commons.apache.org/proper/commons-jcs/) | Distributed caching system  |
-| Hazelcast, Inc.  | Hazelcast | [Hazelcast](https://hazelcast.com/) | Distributed caching system  |
-| Red Hat, Inc. | Infinispan | [Infinispan](http://infinispan.org/) | Distributed in-memory caching system  |
-| Oracle | [Coherence]( | [Coherence JCache](https://coherence.community/) | Local Cache, Partitioned Cache, Pass-Through Cache, Remote Cache |
-
-:bulb: <https://labs.consol.de/java-caches/>
 
 ## REST Client and HTTP Client
 
