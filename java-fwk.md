@@ -53,7 +53,7 @@
 | Apache | Commons | [commons-jcs](https://commons.apache.org/proper/commons-jcs/) | Distributed caching system  |
 | Hazelcast, Inc.  | Hazelcast | [Hazelcast](https://hazelcast.com/) | Distributed caching system  |
 | Red Hat, Inc. | Infinispan | [Infinispan](http://infinispan.org/) | Distributed in-memory caching system  |
-| Oracle | [Coherence]( | [Coherence JCache](https://coherence.community/) | Local Cache, Partitioned Cache, Pass-Through Cache, Remote Cache |
+| Oracle | Coherence | [Coherence JCache](https://coherence.community/) | Local Cache, Partitioned Cache, Pass-Through Cache, Remote Cache |
 
 :bulb: <https://labs.consol.de/java-caches/>
 
