@@ -1,4 +1,4 @@
-# My Personal Java Development Documentations
+# Some Java Development Documentations, Overviews & Cheat-Sheets
 
 _Some Cheat Sheets & Overviews_
 
