@@ -276,5 +276,6 @@ The `pom.xml` extract:
 | `2.0` -> `2.6` | Java 6 |
 | `2.7` -> `2.25.1` | Java 7 |
 | `2.26` -> `2.28` | Java 8 |
+| `2.29` -> ... | Java 11 |
 
-:bulb: [Jersey - Java SE Compatibility](https://jersey.github.io/documentation/latest/modules-and-dependencies.html#d0e560)
+:bulb: [Jersey - Java SE Compatibility](https://eclipse-ee4j.github.io/jersey.github.io/documentation/latest/modules-and-dependencies.html#d0e560)
