@@ -19,4 +19,4 @@
 | [JUnit 4](https://junit.org/junit4/) | `junit.framework.Assert` | `Assert.assertNotNull(input);` | `junit.framework.AssertionFailedError` |
 | [JUnit 5](https://junit.org/junit5/) | `org.junit.jupiter.api.Assertions` | `Assertions.assertNotNull(input);` | `org.opentest4j.AssertionFailedError` |
 | [Hamcrest](http://hamcrest.org/) | `org.hamcrest.MatcherAssert` | `MatcherAssert.asserthat(X, Y);` | `AssertionError` |
-| [AssertJ](https://assertj.github.io/doc/) | `org.assertj.core.api.Assert` | TODO | TODO |
+| [AssertJ](https://assertj.github.io/doc/) | `org.assertj.core.api.Assertions` |  `Assertions.asserthat(X, Y);` | `AssertionError` |
