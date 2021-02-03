@@ -1,6 +1,6 @@
-# Assertions or Validation APIs
+# Assertion or Validation Java APIs
 
-:pushpin: Overview of some API we can use for assertions.
+:pushpin: Overview of some APIs we can use for assertions.
 
 ## Production code
 
