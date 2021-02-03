@@ -7,6 +7,7 @@ _Some Cheat Sheets & Overviews_
 * [Java In Memory Databases Overview](java-db.md)
 * [Java Logging Frameworks Overview](logging-fwk-comp.md)
 * [Java Microservice Frameworks Overview](microservices-fwk-overview.md)
+* [Assertions API Overview](assert-api.md)
 * [JUnit 4 - Tips & Tricks](junit4.md)
 * [JUnit 5 - Cheat Sheet](junit5.md)
 
