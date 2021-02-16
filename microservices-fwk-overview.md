@@ -12,6 +12,7 @@
 | Home page | <https://spring.io/projects/spring-boot> | <https://micronaut.io/> | <https://quarkus.io/> | <https://helidon.io/> |
 | Sponsor | [VM Ware](https://www.vmware.com/) | [Object Computing](https://objectcomputing.com/) | [Red Hat](https://www.redhat.com/) | [Oracle](https://www.oracle.com/) |
 | Starter page | [Spring Initializr](https://start.spring.io/) | [Micronaut Launch](https://micronaut.io/launch/) | [Quarkus Start Coding](https://code.quarkus.io/) | none : archetype:generate |
+| Run the app | `mvn spring-boot:run -Dspring-boot.run.profiles=foo,bar` | `java -jar target/myapp.jar` | `mvn compile quarkus:dev` | `java -jar target/myapp.jar` |
 
 ## Health Checks URL
 
