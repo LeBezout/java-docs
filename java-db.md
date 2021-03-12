@@ -99,7 +99,7 @@
 |----------|--------------------|
 | **Apache Derby** | `values 1` |
 | **Hyper SQL DB** | `select 1 from INFORMATION_SCHEMA.SYSTEM_USERS` |
-| **H2 Database Engine** | `select 1 from sysibm.sysdummy1` |
+| **H2 Database Engine** | `select 1` |
 
 :link: <http://vondrnotes.blogspot.com/2012/05/validationquery-for-different-databases.html>
 
