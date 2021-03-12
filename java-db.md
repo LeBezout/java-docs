@@ -93,6 +93,14 @@
 | **Hyper SQL DB** | `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | `SA` | :no_entry_sign: |
 | **H2 Database Engine** | database is closed when the last connection to it is closed | :no_entry_sign: | :no_entry_sign: |
 
+### Validation Query
+
+| **Apache Derby** | `values 1` |
+| **Hyper SQL DB** | `select 1 from INFORMATION_SCHEMA.SYSTEM_USERS` |
+| **H2 Database Engine** | `select 1 from sysibm.sysdummy1` |
+
+:link: <http://vondrnotes.blogspot.com/2012/05/validationquery-for-different-databases.html>
+
 ### Compatibility Modes
 
 | DBMS Provider | Apache Derby | Hyper SQL DB | H2 Database Engine |
