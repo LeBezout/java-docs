@@ -14,7 +14,8 @@
 
 * Sealed Classes (Preview V2)
 * Records
-* Pattern Matching for instanceof 
+* Pattern Matching for instanceof
+* * Tool: jpackage
 
 ## [Java 15](http://openjdk.java.net/projects/jdk/15/)
 
