@@ -1,10 +1,13 @@
 # Java SE versions Overview
 
-## Java 17 - **LTS**
+## [Java 17](http://openjdk.java.net/projects/jdk/17/) - **LTS**
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
 | Oracle Corporation | 2021-09 | `0x3D` / `61` |
+
+* Sealed Classes
+* Pattern Matching for switch (Preview V1)
 
 ## [Java 16](http://openjdk.java.net/projects/jdk/16/)
 
@@ -15,7 +18,7 @@
 * Sealed Classes (Preview V2)
 * Records
 * Pattern Matching for instanceof
-* * Tool: jpackage
+* Tool: jpackage
 
 ## [Java 15](http://openjdk.java.net/projects/jdk/15/)
 
@@ -32,7 +35,7 @@
 * Z & Shenandoah GC
 * Optimized `StringConcatFactory`
 * Helpful NullPointerException
-* `charSequence.isEmpty()`
+* `CharSequence.isEmpty()`
 
 ## [Java 14](http://openjdk.java.net/projects/jdk/14/)
 
