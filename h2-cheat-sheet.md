@@ -15,6 +15,19 @@
 * JDBC URL (Memory) : `jdbc:h2:mem:my_db`
 * Validation Query : `select 1`
 
+## Maven
+
+```xml
+<dependency>
+  <groupId>com.h2database</groupId>
+  <artifactId>h2</artifactId>
+  <version>1.4.200</version>
+  <scope>test</scope>
+</dependency>
+```
+
+:link: <https://search.maven.org/artifact/com.h2database/h2/>
+
 ## Web Console
 
 ### Launch from CLI
@@ -23,7 +36,7 @@ Sample shell :
 
 ```bash
 #!/bin/bash
-readonly CLASSPATH=opt/liquibase/lib/h2-1.4.200.jar
+readonly CLASSPATH="/opt/liquibase/lib/h2-1.4.200.jar"
 echo "Launching H2 console..."
 java -cp "${CLASSPATH}" org.h2.tools.Console
 ```
@@ -67,13 +80,13 @@ Sample shell :
 ```bash
 #!/bin/bash
 readonly DB_PATH="./H2/DEMO_DB"
-readonly MODE=MySQL
-readonly USER=sa
-readonly CLASSPATH=opt/liquibase/lib/h2-1.4.200.jar
+readonly MODE="MySQL"
+readonly USER="sa"
+readonly CLASSPATH="/opt/liquibase/lib/h2-1.4.200.jar"
 if [ $# = 0 ]; then
   java -cp "${CLASSPATH}" org.h2.tools.Shell -help
 else
-  echo "Execution SQL sur H2 ..."
+  echo "Executing SQL against H2 ..."
   java -cp "${CLASSPATH}" org.h2.tools.Shell -sql "$1" -url "jdbc:h2:file:${DB_PATH};MODE=${MODE}" -user "${USER}"
 fi
 ```
@@ -82,7 +95,7 @@ fi
 
 ### IllegalStateException: Unable to read the page at position
 
-Different driver version used for creation than read.
+A driver version is used for creation and another for read.
 
 ### NUMBER(*, 0)
 
