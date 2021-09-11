@@ -19,6 +19,8 @@
 
 ### Launch from CLI
 
+Sample shell :
+
 ```bash
 #!/bin/bash
 readonly CLASSPATH=opt/liquibase/lib/h2-1.4.200.jar
@@ -60,6 +62,8 @@ java -cp "${CLASSPATH}" org.h2.tools.Console
 
 :bulb: <http://www.h2database.com/javadoc/org/h2/tools/Shell.html>
 
+Sample shell :
+
 ```bash
 #!/bin/bash
 readonly DB_PATH="./H2/DEMO_DB"
@@ -73,3 +77,17 @@ else
   java -cp "${CLASSPATH}" org.h2.tools.Shell -sql "$1" -url "jdbc:h2:file:${DB_PATH};MODE=${MODE}" -user "${USER}"
 fi
 ```
+
+## Troubleshooting
+
+### IllegalStateException: Unable to read the page at position
+
+Different driver version used for creation than read.
+
+### NUMBER(*, 0)
+
+Not supported! Replace with `number(10, 0)`, `number(38, 0)`,  ...
+
+### Deffered FK
+
+Not supported!
