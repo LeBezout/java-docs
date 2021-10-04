@@ -16,6 +16,7 @@
 
 * Sealed Classes
 * Pattern Matching for switch (Preview V1)
+* `native.encoding` system property
 
 ## [Java 16](https://openjdk.java.net/projects/jdk/16/)
 
