@@ -1,6 +1,14 @@
 # Java SE versions Overview
 
-## [Java 17](http://openjdk.java.net/projects/jdk/17/) - **LTS**
+## [Java 18](https://openjdk.java.net/projects/jdk/18/)
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2022-04 | `0x3E` / `62` |
+
+* UTF-8 as default charset across platforms
+
+## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -9,7 +17,7 @@
 * Sealed Classes
 * Pattern Matching for switch (Preview V1)
 
-## [Java 16](http://openjdk.java.net/projects/jdk/16/)
+## [Java 16](https://openjdk.java.net/projects/jdk/16/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -20,7 +28,7 @@
 * Pattern Matching for instanceof
 * Tool: jpackage
 
-## [Java 15](http://openjdk.java.net/projects/jdk/15/)
+## [Java 15](https://openjdk.java.net/projects/jdk/15/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -37,7 +45,7 @@
 * Helpful NullPointerException
 * `CharSequence.isEmpty()`
 
-## [Java 14](http://openjdk.java.net/projects/jdk/14/)
+## [Java 14](https://openjdk.java.net/projects/jdk/14/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -49,7 +57,7 @@
 * Helpful NullPointerException (Preview)
 * Switch expressions
 
-## [Java 13](http://openjdk.java.net/projects/jdk/13/)
+## [Java 13](https://openjdk.java.net/projects/jdk/13/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -61,7 +69,7 @@
 * Dynamic CDS Archives
 * Unicode 12.1
 
-## [Java 12](http://openjdk.java.net/projects/jdk/12/)
+## [Java 12](https://openjdk.java.net/projects/jdk/12/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -74,7 +82,7 @@
 * `Files.mismatch()`
 * `String.indent()`, `String.transform()`
 
-## [Java 11](http://openjdk.java.net/projects/jdk/11/) - **LTS**
+## [Java 11](https://openjdk.java.net/projects/jdk/11/) - **LTS**
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
@@ -87,7 +95,7 @@
 * `String.repeat()`, `String.lines()`, `String.strip()`, `String.isBlank()`
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
-## [Java 10](http://openjdk.java.net/projects/jdk/10/)
+## [Java 10](https://openjdk.java.net/projects/jdk/10/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
 |--------|----------------|--------------------|
