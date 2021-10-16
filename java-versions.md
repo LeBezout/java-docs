@@ -7,6 +7,7 @@
 | Oracle Corporation | 2022-04 | `0x3E` / `62` |
 
 * UTF-8 as default charset across platforms
+* new `@snippet` tag in javadoc
 
 ## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
@@ -17,6 +18,7 @@
 * Sealed Classes
 * Pattern Matching for switch (Preview V1)
 * `native.encoding` system property
+* new <https://dev.java/> web site
 
 ## [Java 16](https://openjdk.java.net/projects/jdk/16/)
 
