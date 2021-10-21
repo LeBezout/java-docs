@@ -15,7 +15,7 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2021-09 | `0x3D` / `61` |
 
-* Sealed Classes
+* [Sealed Classes](https://www.youtube.com/watch?v=652kheEraHQ)
 * Pattern Matching for switch (Preview V1)
 * `native.encoding` system property
 * new <https://dev.java/> web site
@@ -29,7 +29,7 @@
 * Sealed Classes (Preview V2)
 * Records
 * Pattern Matching for instanceof
-* Tool: jpackage
+* [Tool: jpackage](https://www.youtube.com/watch?v=-6q_MKtPL3o)
 
 ## [Java 15](https://openjdk.java.net/projects/jdk/15/)
 
@@ -41,7 +41,7 @@
 * Hidden Classes
 * Records (Preview V2)
 * Pattern Matching for instanceof (Preview V2)
-* Text Blocks / Raw String Literals
+* [Text Blocks / Raw String Literals](https://www.youtube.com/watch?v=NDaA9MrTLBM)
 * Nashorn removal
 * Z & Shenandoah GC
 * Optimized `StringConcatFactory`
@@ -58,7 +58,7 @@
 * Records (Preview V1)
 * Text Blocks / Raw String Literals (Preview V2)
 * Helpful NullPointerException (Preview)
-* Switch expressions
+* [Switch expressions](https://www.youtube.com/watch?v=uNJTkppQEZQ)
 
 ## [Java 13](https://openjdk.java.net/projects/jdk/13/)
 
