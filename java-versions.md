@@ -29,6 +29,7 @@
 * Sealed Classes (Preview V2)
 * Records
 * Pattern Matching for instanceof
+* `Stream#mapMulti`
 * [Tool: jpackage](https://www.youtube.com/watch?v=-6q_MKtPL3o)
 
 ## [Java 15](https://openjdk.java.net/projects/jdk/15/)
