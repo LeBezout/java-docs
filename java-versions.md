@@ -144,6 +144,7 @@
 * JDBC 4.2
 * `String.join()` / StringJoiner
 * Repeating annotations
+* PrimitiveIterator
 * MetaSpace
 
 ## [Java 7](https://openjdk.java.net/projects/jdk7/)
@@ -160,6 +161,7 @@
 * JDBC 4.0
 * java.nio.Files
 * Binary integer literals, underscores in numeric literals
+* TransferQueue
 
 ## [Java 6.0](https://openjdk.java.net/projects/jdk6/)
 
@@ -177,6 +179,7 @@
 * Queues & Deques
 * String.isEmpty(), Arrays.copyOf(), System.console()
 * `*` support in classpath
+* NavigableSet, NavigableMap, ConcurrentNavigableMap
 
 ## Java 5.0
 
