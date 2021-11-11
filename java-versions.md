@@ -32,7 +32,7 @@
 * Sealed Classes (Preview V2)
 * Records
 * Pattern Matching for instanceof
-* `Stream#mapMulti`
+* `Stream.mapMulti()`
 * [Tool: jpackage](https://www.youtube.com/watch?v=-6q_MKtPL3o)
 
 ## [Java 15](https://openjdk.java.net/projects/jdk/15/)
@@ -100,6 +100,7 @@
 * Running Single File Source Code
 * TLS 1.3
 * `String.repeat()`, `String.lines()`, `String.strip()`, `String.isBlank()`
+* `OutputStream.nullOutputStream()`
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
 ## [Java 10](https://openjdk.java.net/projects/jdk/10/)
@@ -109,9 +110,9 @@
 | Oracle Corporation | 2018-03 | `0x36` / `54` |
 
 * Local-variable type inference : `var`
-* Collectors.toUnmodifiableList()
+* `Collectors.toUnmodifiableList()``
 * `List.copyOf()`
-* Optional*.orElseThrow()
+* `Optional*.orElseThrow()`
 * G1GC improvements
 
 ## [Java 9](https://openjdk.java.net/projects/jdk9/)
