@@ -2,7 +2,6 @@
 
 ## JRebel
 
-* [Java 10 Local Type Inference by _snyk.io_](https://snyk.io/blog/local-type-inference-java-cheat-sheet)
 * [Java 9 Modules by _JRebel_](https://www.jrebel.com/blog/java-9-modules-cheat-sheet)
 * [Java 8 Best Practices by _JRebel_](https://www.jrebel.com/blog/java-8-cheat-sheet)
 * [Java 8 Streams by _JRebel_](https://www.jrebel.com/blog/java-streams-cheat-sheet)
@@ -16,9 +15,10 @@
 
 ## Snyk
 
-* [Spring Boot Security by _snyk.io_](https://snyk.io/blog/spring-boot-security-best-practices)
+* [Java 10 Local Type Inference by _snyk.io_](https://snyk.io/blog/local-type-inference-java-cheat-sheet/)
+* [Spring Boot Security by _snyk.io_](https://snyk.io/blog/spring-boot-security-best-practices/)
 * [10 Java security best practices by _snyk.io_](https://snyk.io/blog/10-java-security-best-practices/)
-* [Zip Slip vulnerability by _snyk.io_](http://res.cloudinary.com/snyk/image/upload/v1530192988/blog/zip-slip-cheat-sheet.pdf)
+* [Zip Slip vulnerability by _snyk.io_](https://snyk.io/blog/zip-slip-vulnerability-cheat-sheet/)
 
 ## DZone
 
