@@ -10,6 +10,7 @@ _Some Cheat Sheets & Overviews_
 * [Assertions API Overview](assert-api.md)
 * [JUnit 4 - Tips & Tricks](junit4.md)
 * [JUnit 5 - Cheat Sheet](junit5.md)
+* [Java Cheat Sheets](cheat-sheets.md)
 * [H2 - Cheat Sheet](h2-cheat-sheet.md)
 
 _Some tutorials_
