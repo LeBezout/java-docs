@@ -31,20 +31,20 @@
 
 ## Reactive implementations
 
-### Spring Boot
+### Spring Boot, Micronaut 3.X
 
-Use : Tomcat, jetty,  Undertow, netty
+Use : netty
 
 [**Reactor**](https://projectreactor.io/) is a fourth-generation reactive library, based on the Reactive Streams
 
 * `reactor.core.publisher.Mono`
 * `reactor.core.publisher.Flux`
 
-### Micronaut
+### Micronaut 2.X
 
 Use : netty
 
-[**ReactiveX**](http://reactivex.io/) - An API for asynchronous programming with observable streams
+[**ReactiveX**](http://reactivex.io/) (RxJava) - An API for asynchronous programming with observable streams
 
 * `io.reactivex.Single`
 * `io.reactivex.Maybe`
