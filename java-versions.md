@@ -121,8 +121,8 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2017-09 | `0x35` / `53` |
 
-* Modules (Jigsaw)
-* Collections Framework Enhancements
+* Modules (Jigsaw)m
+* Collections Framework Enhancements & [Collection Factory Methods](https://www.youtube.com/watch?v=rRtirh1nC5A)
 * Optional Enhancements : `ifPresentOrElse()`, `or()`, `stream()`
 * Process API Enhancements
 * JShell
