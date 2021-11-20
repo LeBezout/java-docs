@@ -110,7 +110,7 @@
 | Oracle Corporation | 2018-03 | `0x36` / `54` |
 
 * Local-variable type inference : `var`
-* `Collectors.toUnmodifiableList()``
+* `Collectors.toUnmodifiableList()`
 * `List.copyOf()`
 * `Optional*.orElseThrow()`
 * G1GC improvements
