@@ -121,7 +121,7 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2017-09 | `0x35` / `53` |
 
-* Modules (Jigsaw)m
+* Modules (Jigsaw)
 * Collections Framework Enhancements & [Collection Factory Methods](https://www.youtube.com/watch?v=rRtirh1nC5A)
 * Optional Enhancements : `ifPresentOrElse()`, `or()`, `stream()`
 * Process API Enhancements
@@ -132,6 +132,7 @@
 * Private methods in Interfaces
 * JVM options GNU Styles (ex: `--help, --class-path`)
 * `System.getLogger()`
+* [String Concatenation with _invokedynamic_](https://www.youtube.com/watch?v=w56RUzBLaRE)
 
 ## [Java 8](https://openjdk.java.net/projects/jdk8/) - **LTS**
 
