@@ -1,7 +1,13 @@
 # Java SE versions Overview
 
-* [Java 1](#java-1) | [Java 1.1](#java-11) | [Java 1.2](#java-12-1) | [Java 1.3](#java-13-1) | [Java 1.4](#java-14-1) | [Java 5.0](#java-50) | [Java 6.0](#java-60) | [Java 7](#java-7) | [Java 8](#java-8---lts) | [Java 9](#java-9) | [Java 10](#java-10)
-* [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
+* [Java 1](#java-1) | [Java 1.1](#java-11) | [Java 1.2](#java-12-1) | [Java 1.3](#java-13-1) | [Java 1.4](#java-14-1) | [Java 5.0](#java-50) | [Java 6.0](#java-60) | [Java 7](#java-7) | [Java 8](#java-8---lts) | [Java 9](#java-9)
+* [Java 10](#java-10) | [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
+
+## [Java 19](https://openjdk.java.net/projects/jdk/19/)
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2022-09 | `0x3F` / `63` |
 
 ## [Java 18](https://openjdk.java.net/projects/jdk/18/)
 
@@ -11,6 +17,8 @@
 
 * UTF-8 as default charset across platforms
 * new `@snippet` tag in javadoc
+* Pattern Matching for switch (Preview V2)
+* Deprecate Finalization for Removal
 
 ## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
