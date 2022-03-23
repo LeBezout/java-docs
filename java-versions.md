@@ -3,6 +3,10 @@
 * [Java 1](#java-1) | [Java 1.1](#java-11) | [Java 1.2](#java-12-1) | [Java 1.3](#java-13-1) | [Java 1.4](#java-14-1) | [Java 5.0](#java-50) | [Java 6.0](#java-60) | [Java 7](#java-7) | [Java 8](#java-8---lts) | [Java 9](#java-9)
 * [Java 10](#java-10) | [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
 
+## Java 21 - **LTS**
+
+## Java 20
+
 ## [Java 19](https://openjdk.java.net/projects/jdk/19/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
