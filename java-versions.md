@@ -275,6 +275,7 @@
 
 ---
 
+* :link: [The Java Version Almanac](https://javaalmanac.io/)
 * :link: <https://en.wikipedia.org/wiki/Java_version_history>
 * :link: <https://en.wikipedia.org/wiki/Java_class_file>
 * :link: <https://www.oracle.com/java/moved-by-java/timeline/>
