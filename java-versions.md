@@ -13,6 +13,8 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2022-09 | `0x3F` / `63` |
 
+* [JEP 425: Virtual Threads](https://www.youtube.com/watch?v=lKSSBvRDmTg) (Preview V1)
+
 ## [Java 18](https://openjdk.java.net/projects/jdk/18/)
 
 | Vendor | Inception Date | CA FE BA BE Number |
