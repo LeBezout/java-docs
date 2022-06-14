@@ -25,7 +25,7 @@
 * new `@snippet` tag in javadoc
 * Pattern Matching for switch (Preview V2)
 * Deprecate Finalization for Removal
-* `cacerts`in PKCS#12 with no default password
+* `cacerts` in PKCS#12 with no default password
 
 ## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
