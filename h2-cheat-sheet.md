@@ -21,7 +21,7 @@
 <dependency>
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>1.4.200</version>
+  <version>2.1.214</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -36,7 +36,7 @@ Sample shell :
 
 ```bash
 #!/bin/bash
-readonly CLASSPATH="/opt/liquibase/lib/h2-1.4.200.jar"
+readonly CLASSPATH="/opt/lib/h2-2.1.214.jar"
 echo "Launching H2 console..."
 java -cp "${CLASSPATH}" org.h2.tools.Console
 ```
@@ -82,7 +82,7 @@ Sample shell :
 readonly DB_PATH="./H2/DEMO_DB"
 readonly MODE="MySQL"
 readonly USER="sa"
-readonly CLASSPATH="/opt/liquibase/lib/h2-1.4.200.jar"
+readonly CLASSPATH="/opt/liquibase/lib/h2-2.1.214.jar"
 if [ $# = 0 ]; then
   java -cp "${CLASSPATH}" org.h2.tools.Shell -help
 else
