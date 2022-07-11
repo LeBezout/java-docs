@@ -78,6 +78,7 @@
 * Text Blocks / Raw String Literals (Preview V2)
 * Helpful NullPointerException (Preview)
 * [Switch expressions](https://www.youtube.com/watch?v=uNJTkppQEZQ)
+* `@java.util.Serial` annotation
 
 ## [Java 13](https://openjdk.java.net/projects/jdk/13/)
 
