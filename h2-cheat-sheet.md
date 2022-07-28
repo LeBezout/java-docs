@@ -36,7 +36,8 @@ Sample shell :
 
 ```bash
 #!/bin/bash
-readonly CLASSPATH="/opt/lib/h2-2.1.214.jar"
+readonly H2_VERSION="2.1.214"
+readonly CLASSPATH="/opt/libs/h2-${H2_VERSION}.jar"
 echo "Launching H2 console..."
 java -cp "${CLASSPATH}" org.h2.tools.Console
 ```
@@ -79,10 +80,11 @@ Sample shell :
 
 ```bash
 #!/bin/bash
+readonly H2_VERSION="2.1.214"
 readonly DB_PATH="./H2/DEMO_DB"
 readonly MODE="MySQL"
 readonly USER="sa"
-readonly CLASSPATH="/opt/liquibase/lib/h2-2.1.214.jar"
+readonly CLASSPATH="/opt/libs/h2-${H2_VERSION}.jar"
 if [ $# = 0 ]; then
   java -cp "${CLASSPATH}" org.h2.tools.Shell -help
 else
