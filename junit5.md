@@ -47,7 +47,7 @@
 | `@Rule` | `@ExtendWith` |
 | `@Rule public TestName testName = new TestName();` | Inject `TestInfo` as method parameter |
 | `@ClassRule` | `@ExtendWith` |
-| `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.Alphanumeric.class)` (@since 5.4) |
+| `@FixMethodOrder(MethodSorters.NAME_ASCENDING)` | `@TestMethodOrder(MethodOrderer.MethodName.class)` |
 | :no_entry_sign: | `@DisplayName` |
 | :no_entry_sign: | `@DisplayNameGeneration` (only on class - @since 5.4) |
 | `org.junit.Assert` | `org.junit.jupiter.api.Assertions` |
@@ -203,3 +203,40 @@ class SomeTests {
       // some other tests
     }
 }
+```
+
+## Extensions
+
+### JUnit Pionner
+
+:link: <https://junit-pioneer.org/>
+
+```xml
+<dependency>
+    <groupId>org.junit-pioneer</groupId>
+    <artifactId>junit-pioneer</artifactId>
+    <version>1.9.1</version>
+    <scope>test</scope>
+</dependency>
+```
+
+:bulb: https://junit-pioneer.org/docs/environment-variables/
+
+```java
+@Test
+@SetEnvironmentVariable(key = "MY_CONFIG_IGNORE_FIRST_LINE", value = "true")
+@SetEnvironmentVariable(key = "MY_CONFIG_IGNORE_BLANK_LINES", value = "true")
+void should_supply_the_right_configuration_object() {
+  // test code
+}
+```
+
+:bulb: https://junit-pioneer.org/docs/system-properties/
+
+```java
+@Test
+@SetSystemProperty(key = "my.config.key", value = "my_value")
+void should_supply_the_right_configuration_object() {
+  // test code
+}
+```
