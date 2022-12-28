@@ -207,7 +207,7 @@ class SomeTests {
 
 ## Extensions
 
-### JUnit Pionner
+### JUnit Pioneer
 
 :link: <https://junit-pioneer.org/>
 
@@ -238,5 +238,26 @@ void should_supply_the_right_configuration_object() {
 @SetSystemProperty(key = "my.config.key", value = "my_value")
 void should_supply_the_right_configuration_object() {
   // test code
+}
+```
+
+### Mockito
+
+```xml
+<dependency>
+    <groupId>org.mockito</groupId>
+    <artifactId>mockito-junit-jupiter</artifactId>
+    <version>4.10.0</version>
+    <scope>test</scope>
+</dependency>
+```
+
+```java
+@ExtendWith(MockitoExtension.class)
+class SomeUnitTest {
+  @Test
+  void should_test_something() {
+    // test code
+  }
 }
 ```
