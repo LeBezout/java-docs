@@ -128,6 +128,7 @@
 * TLS 1.3
 * `String.repeat()`, `String.lines()`, `String.strip()`, `String.isBlank()`
 * `OutputStream.nullOutputStream()`
+* `Optional*.isEmpty()`
 * :no_entry_sign: JavaFX, Java EE and CORBA removed
 
 ## [Java 10](https://openjdk.java.net/projects/jdk/10/)
