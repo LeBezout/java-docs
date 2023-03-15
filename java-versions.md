@@ -15,6 +15,7 @@
 * Virtual Threads (Preview V2)
 * Pattern Matching for switch (Preview V4)
 * Record deconstruction pattern (Preview V2)
+* [Vector API](https://www.youtube.com/watch?v=42My8Yfzwbg) (Preview V5)
 
 ## [Java 19](https://openjdk.java.net/projects/jdk/19/)
 
@@ -25,6 +26,7 @@
 * [JEP 425: Virtual Threads](https://www.youtube.com/watch?v=lKSSBvRDmTg) (Preview V1)
 * Pattern Matching for switch (Preview V3)
 * Record deconstruction pattern (Preview)
+* Vector API (Preview V4)
 
 ## [Java 18](https://openjdk.java.net/projects/jdk/18/)
 
@@ -37,6 +39,7 @@
 * Pattern Matching for switch (Preview V2)
 * Deprecate Finalization for Removal
 * `cacerts` in PKCS#12 with no default password
+* Vector API (Preview V3)
 
 ## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
@@ -48,6 +51,7 @@
 * Pattern Matching for switch (Preview V1)
 * `native.encoding` system property
 * new <https://dev.java/> web site
+* Vector API (Preview V2)
 
 ## [Java 16](https://openjdk.java.net/projects/jdk/16/)
 
@@ -60,6 +64,7 @@
 * Pattern Matching for instanceof
 * `Stream.mapMulti()`
 * [Tool: jpackage](https://www.youtube.com/watch?v=-6q_MKtPL3o)
+* Vector API (Preview V1)
 
 ## [Java 15](https://openjdk.java.net/projects/jdk/15/)
 
