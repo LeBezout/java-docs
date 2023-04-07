@@ -4,7 +4,14 @@
 * [Java 10](#java-10) | [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
 * [Java 20](#java-20)
 
-## Java 21 - **LTS**
+## [Java 21](https://openjdk.org/projects/jdk/21/) - **LTS**
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2023-09 | `0x41` / `65` |
+
+* Virtual Threads
+* Sequenced Collections
 
 ## [Java 20](https://openjdk.org/projects/jdk/20/)
 
