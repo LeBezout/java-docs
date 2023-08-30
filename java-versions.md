@@ -10,8 +10,11 @@
 |--------|----------------|--------------------|
 | Oracle Corporation | 2023-09 | `0x41` / `65` |
 
-* Virtual Threads
+* [Virtual Threads](https://www.youtube.com/watch?v=5E0LU85EnTI)
 * Sequenced Collections
+* Pattern Matching for switch
+* Vector API (Preview V6)
+* String Templates (Preview V1)
 
 ## [Java 20](https://openjdk.org/projects/jdk/20/)
 
