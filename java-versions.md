@@ -2,7 +2,31 @@
 
 * [Java 1](#java-1) | [Java 1.1](#java-11) | [Java 1.2](#java-12-1) | [Java 1.3](#java-13-1) | [Java 1.4](#java-14-1) | [Java 5.0](#java-50) | [Java 6.0](#java-60) | [Java 7](#java-7) | [Java 8](#java-8---lts) | [Java 9](#java-9)
 * [Java 10](#java-10) | [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
-* [Java 20](#java-20)
+* [Java 20](#java-20) | [Java 21](#java-21---lts) | [Java 22](#java-22) | [Java 23](#java-23) | [Java 24](#java-24) | [Java 25](#java-25---lts)
+
+## [Java 25](https://openjdk.org/projects/jdk/25/) - **LTS**
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2025-09 | `0x45` / `68` |
+
+## [Java 24](https://openjdk.org/projects/jdk/24/)
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2025-04 | `0x44` / `67` |
+
+## [Java 23](https://openjdk.org/projects/jdk/23/)
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2024-09 | `0x43` / `67` |
+
+## [Java 22](https://openjdk.org/projects/jdk/22/)
+
+| Vendor | Inception Date | CA FE BA BE Number |
+|--------|----------------|--------------------|
+| Oracle Corporation | 2024-04 | `0x42` / `66` |
 
 ## [Java 21](https://openjdk.org/projects/jdk/21/) - **LTS**
 
@@ -307,6 +331,7 @@
 ---
 
 * :link: [The Java Version Almanac](https://javaalmanac.io/)
+* :link: [Oracle Java SE Support Roadmap](https://www.oracle.com/java/technologies/java-se-support-roadmap.html)
 * :link: <https://en.wikipedia.org/wiki/Java_version_history>
 * :link: <https://en.wikipedia.org/wiki/Java_class_file>
 * :link: <https://www.oracle.com/java/moved-by-java/timeline/>
