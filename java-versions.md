@@ -6,32 +6,32 @@
 
 ## [Java 25](https://openjdk.org/projects/jdk/25/) - **LTS**
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2025-09 | `0x45` / `68` |
 
 ## [Java 24](https://openjdk.org/projects/jdk/24/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2025-04 | `0x44` / `67` |
 
 ## [Java 23](https://openjdk.org/projects/jdk/23/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2024-09 | `0x43` / `67` |
 
 ## [Java 22](https://openjdk.org/projects/jdk/22/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2024-04 | `0x42` / `66` |
 
 ## [Java 21](https://openjdk.org/projects/jdk/21/) - **LTS**
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2023-09 | `0x41` / `65` |
 
 * [Virtual Threads](https://www.youtube.com/watch?v=5E0LU85EnTI)
@@ -42,8 +42,8 @@
 
 ## [Java 20](https://openjdk.org/projects/jdk/20/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2023-04 | `0x40` / `64` |
 
 * Virtual Threads (Preview V2)
@@ -53,8 +53,8 @@
 
 ## [Java 19](https://openjdk.java.net/projects/jdk/19/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2022-09 | `0x3F` / `63` |
 
 * [JEP 425: Virtual Threads](https://www.youtube.com/watch?v=lKSSBvRDmTg) (Preview V1)
@@ -64,8 +64,8 @@
 
 ## [Java 18](https://openjdk.java.net/projects/jdk/18/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2022-04 | `0x3E` / `62` |
 
 * UTF-8 as default charset across platforms
@@ -77,8 +77,8 @@
 
 ## [Java 17](https://openjdk.java.net/projects/jdk/17/) - **LTS**
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2021-09 | `0x3D` / `61` |
 
 * [Sealed Classes](https://www.youtube.com/watch?v=652kheEraHQ)
@@ -89,8 +89,8 @@
 
 ## [Java 16](https://openjdk.java.net/projects/jdk/16/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2021-04 | `0x3C` / `60` |
 
 * Sealed Classes (Preview V2)
@@ -102,8 +102,8 @@
 
 ## [Java 15](https://openjdk.java.net/projects/jdk/15/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2020-09 | `0x3B` / `59` |
 
 * Sealed Classes (Preview V1)
@@ -119,8 +119,8 @@
 
 ## [Java 14](https://openjdk.java.net/projects/jdk/14/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2020-04 | `0x3A` / `58` |
 
 * Pattern Matching for instanceof (Preview V1)
@@ -132,8 +132,8 @@
 
 ## [Java 13](https://openjdk.java.net/projects/jdk/13/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2019-09 | `0x39` / `57` |
 
 * Text Blocks / Raw String Literals (Preview V1)
@@ -144,8 +144,8 @@
 
 ## [Java 12](https://openjdk.java.net/projects/jdk/12/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2019-03 | `0x38` / `56` |
 
 * Raw String Literals (Preview)
@@ -157,8 +157,8 @@
 
 ## [Java 11](https://openjdk.java.net/projects/jdk/11/) - **LTS**
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2018-09 | `0x37` / `55` |
 
 * Local-variable syntax for lambda parameters
@@ -172,8 +172,8 @@
 
 ## [Java 10](https://openjdk.java.net/projects/jdk/10/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2018-03 | `0x36` / `54` |
 
 * Local-variable type inference : `var`
@@ -184,8 +184,8 @@
 
 ## [Java 9](https://openjdk.java.net/projects/jdk9/)
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2017-09 | `0x35` / `53` |
 
 * Modules (Jigsaw)
@@ -204,8 +204,8 @@
 
 ## [Java 8](https://openjdk.java.net/projects/jdk8/) - **LTS**
 
-| Vendor | Inception Date | CA FE BA BE Number |
-|--------|----------------|--------------------|
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
 | Oracle Corporation | 2014-03 | `0x34` / `52` |
 
 * Optional
@@ -222,8 +222,8 @@
 
 ## [Java 7](https://openjdk.java.net/projects/jdk7/)
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Oracle Corporation | 2011-07 | _Dolphin_ | `0x33` / `51` |
 
 * Diamond Operator (type inference)
@@ -239,8 +239,8 @@
 
 ## [Java 6.0](https://openjdk.java.net/projects/jdk6/)
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 2006-12 | _Mustang_ | `0x32` / `50` |
 
 * Common annotations : `@Generated`, `@PostConstruct`, `@PreDestroy`, `@Resource`, `@Resources`
@@ -257,8 +257,8 @@
 
 ## Java 5.0
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 2004-09 | _Tiger_ | `0x31` / `49` |
 
 * Generics
@@ -276,8 +276,8 @@
 
 ## Java 1.4
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 2002-02 | _Merlin_ | `0x30` / `48` |
 
 * Java Web Start
@@ -292,8 +292,8 @@
 
 ## Java 1.3
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 2000-05 | _Kestrel_ | `0x2F` / `47` |
 
 * JNDI
@@ -302,8 +302,8 @@
 
 ## Java 1.2
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 1998-12 | _Playground_ | `0x2E` / `46` |
 
 * Reflexion API
@@ -313,8 +313,8 @@
 
 ## Java 1.1
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 1997-02 |  | `0x2D` / `45` |
 
 * Inner classes
@@ -324,8 +324,8 @@
 
 ## Java 1
 
-| Vendor | Inception Date | Code name | CA FE BA BE Number |
-|--------|----------------|-----------|--------------------|
+| Vendor | Inception Date | Code name | Magic Number |
+|--------|----------------|-----------|--------------|
 | Sun Microsystems | 1996-01 | _Oak_ | `?` |
 
 ---
@@ -335,3 +335,4 @@
 * :link: <https://en.wikipedia.org/wiki/Java_version_history>
 * :link: <https://en.wikipedia.org/wiki/Java_class_file>
 * :link: <https://www.oracle.com/java/moved-by-java/timeline/>
+* :link: <https://chriswhocodes.com/jepmap.html>
