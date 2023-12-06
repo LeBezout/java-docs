@@ -336,3 +336,4 @@
 * :link: <https://en.wikipedia.org/wiki/Java_class_file>
 * :link: <https://www.oracle.com/java/moved-by-java/timeline/>
 * :link: <https://chriswhocodes.com/jepmap.html>
+* :link: [A categorized list of all Java and JVM features since JDK 8 to 21](https://advancedweb.hu/a-categorized-list-of-all-java-and-jvm-features-since-jdk-8-to-21/)
