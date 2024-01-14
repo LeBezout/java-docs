@@ -28,6 +28,13 @@
 |--------|----------------|--------------|
 | Oracle Corporation | 2024-04 | `0x42` / `66` |
 
+* Statements before super (Preview V1)
+* Vector API (Preview V7)
+* Stream Gatherers (Preview v1)
+* Scoped Values (Preview V2)
+* String Templates (Preview V2)
+* Launch Multi-File Source-Code Programs
+
 ## [Java 21](https://openjdk.org/projects/jdk/21/) - **LTS**
 
 | Vendor | Inception Date | Magic Number |
@@ -35,6 +42,7 @@
 | Oracle Corporation | 2023-09 | `0x41` / `65` |
 
 * [Virtual Threads](https://www.youtube.com/watch?v=5E0LU85EnTI)
+* Scoped Values (Preview V1)
 * Sequenced Collections
 * Pattern Matching for switch
 * Vector API (Preview V6)
