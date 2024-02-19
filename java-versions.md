@@ -43,6 +43,7 @@
 
 * [Virtual Threads](https://www.youtube.com/watch?v=5E0LU85EnTI)
 * Scoped Values (Preview V1)
+* Record deconstruction pattern
 * Sequenced Collections
 * Pattern Matching for switch
 * Vector API (Preview V6)
