@@ -1,8 +1,8 @@
 # In-Memory Java Databases Overview
 
-## Main librairies
+## Main libraries
 
- ![Logo Derby](https://db.apache.org/derby/docs/10.0/images/derby-logo-web.png)  ![Logo HSQL](http://hsqldb.org/images/hypersql_logo.png)  ![Logo H2](http://www.h2database.com/html/images/h2-logo-2.png)
+ ![Logo Derby](https://db.apache.org/derby/images/derby-logo-web.png)  ![Logo HSQL](https://hsqldb.org/images/hypersql_logo.png)  ![Logo H2](https://www.h2database.com/html/images/h2-logo-2.png)
 
 * [Apache Derby](http://db.apache.org/derby/) - [Getting started](https://db.apache.org/derby/papers/DerbyTut/index.html)
 * [Hyper SQL DB](http://hsqldb.org/) - [Getting started](http://hsqldb.org/doc/2.0/guide/index.html)
@@ -18,12 +18,12 @@
 <dependency>
   <groupId>org.apache.derby</groupId>
   <artifactId>derby</artifactId>
-   <version>10.15.2.0</version>
+   <version>10.17.1.0</version>
   <scope>test</scope>
 </dependency>
 ```
 
-:link: <https://search.maven.org/artifact/org.apache.derby/derby/10.15.2.0/jar>
+:link: <https://search.maven.org/artifact/org.apache.derby/derby>
 
 #### Hyper SQL
 
@@ -31,12 +31,12 @@
 <dependency>
   <groupId>org.hsqldb</groupId>
   <artifactId>hsqldb</artifactId>
-  <version>2.5.1</version>
+  <version>2.7.4</version>
   <scope>test</scope>
 </dependency>
 ```
 
-:link: <https://search.maven.org/artifact/org.hsqldb/hsqldb/2.5.1/jar>
+:link: <https://search.maven.org/artifact/org.hsqldb/hsqldb>
 
 #### H2
 
@@ -44,16 +44,16 @@
 <dependency>
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>1.4.200</version>
+  <version>2.3.232</version>
   <scope>test</scope>
 </dependency>
 ```
 
-:link: <https://search.maven.org/artifact/com.h2database/h2/1.4.200/jar>
+:link: <https://search.maven.org/artifact/com.h2database/h2>
 
 ### Drivers
 
-| Librairy | Driver Class name |
+| Library | Driver Class name |
 |----------|-------------------|
 | **Apache Derby** | `org.apache.derby.jdbc.EmbeddedDriver` |
 | **Hyper SQL DB** | `org.hsqldb.jdbc.JDBCDriver` |
@@ -61,7 +61,7 @@
 
 ### Hibernate Dialect
 
-| Librairy | Dialect Class name |
+| Library | Dialect Class name |
 |----------|--------------------|
 | **Apache Derby** | `org.hibernate.dialect.DerbyDialect` |
 | **Hyper SQL DB** | `org.hibernate.dialect.HSQLDialect` |
@@ -71,7 +71,7 @@
 
 #### File
 
-| Librairy | JDBC String | User | Password |
+| Library | JDBC String | User | Password |
 |----------|-------------|------|----------|
 | **Apache Derby** | `jdbc:derby:target/junit/db/my_db;create=true` | :no_entry_sign: | :no_entry_sign: |
 | **Hyper SQL DB** | `jdbc:hsqldb:file:./target/junit/db/my_db;create=true` | `SA` | :no_entry_sign: |
@@ -79,7 +79,7 @@
 
 #### In-Memory
 
-| Librairy | JDBC String | User | Password |
+| Library | JDBC String | User | Password |
 |----------|-------------|------|----------|
 | **Apache Derby** | `jdbc:derby:memory:my_db;create=true` | :no_entry_sign: | :no_entry_sign: |
 | **Hyper SQL DB** | `jdbc:hsqldb:mem:my_db` | `SA` | :no_entry_sign: |
@@ -87,7 +87,7 @@
 
 ### Shutdown database
 
-| Librairy | JDBC String | User | Password |
+| Library | JDBC String | User | Password |
 |----------|-------------|------|----------|
 | **Apache Derby** | `jdbc:derby:target/junit/db/my_db;shutdown=true` | :no_entry_sign: | :no_entry_sign: |
 | **Hyper SQL DB** | `jdbc:hsqldb:file:target/junit/db/my_db;shutdown=true` | `SA` | :no_entry_sign: |
@@ -95,7 +95,7 @@
 
 ### Validation Queries
 
-| Librairy | Validation Query |
+| Library | Validation Query |
 |----------|--------------------|
 | **Apache Derby** | `values 1` |
 | **Hyper SQL DB** | `select 1 from INFORMATION_SCHEMA.SYSTEM_USERS` |
@@ -119,10 +119,9 @@
 * :link: [H2 Compatibility page](http://www.h2database.com/html/features.html#compatibility)
 * :link: [HSQLDB Compatibility page](http://hsqldb.org/doc/guide/compatibility-chapt.html)
 
-
 ### Liquibase Type Name
 
-| Librairy | Type Name |
+| Library | Type Name |
 |----------|-----------|
 | **Apache Derby** | `derby` |
 | **Hyper SQL DB** | `hsqldb` |
@@ -132,7 +131,7 @@
 
 ## Data Types
 
-* :link: [Derby 10.15 Data Types](https://db.apache.org/derby/docs/10.15/ref/crefsqlj31068.html)
+* :link: [Derby 10.17 Data Types](https://db.apache.org/derby/docs/10.17/ref/crefsqlj31068.html)
 * :link: [HSQLDB Data Types](http://www.hsqldb.org/doc/guide/sqlgeneral-chapt.html#sgc_types_ops)
 * :link: [H2 Data Types](http://www.h2database.com/html/datatypes.html)
 

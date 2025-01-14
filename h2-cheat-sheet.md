@@ -7,7 +7,7 @@
 * [Data Types](http://www.h2database.com/html/datatypes.html)
 * [Database URL Overview](http://www.h2database.com/html/features.html#database_url)
 
-## Summury
+## Summary
 
 * JDBC Driver class name : `org.h2.Driver`
 * Hibernate Dialect class name : `org.hibernate.dialect.H2Dialect`
@@ -21,7 +21,7 @@
 <dependency>
   <groupId>com.h2database</groupId>
   <artifactId>h2</artifactId>
-  <version>2.1.214</version>
+  <version>2.3.232</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -36,7 +36,7 @@ Sample shell :
 
 ```bash
 #!/bin/bash
-readonly H2_VERSION="2.1.214"
+readonly H2_VERSION="2.3.232"
 readonly CLASSPATH="/opt/libs/h2-${H2_VERSION}.jar"
 echo "Launching H2 console..."
 java -cp "${CLASSPATH}" org.h2.tools.Console
@@ -80,7 +80,7 @@ Sample shell :
 
 ```bash
 #!/bin/bash
-readonly H2_VERSION="2.1.214"
+readonly H2_VERSION="2.3.232"
 readonly DB_PATH="./H2/DEMO_DB"
 readonly MODE="MySQL"
 readonly USER="sa"
@@ -93,6 +93,10 @@ else
 fi
 ```
 
+## Execute SQL on Connection
+
+:bulb: <https://h2database.com/html/features.html#execute_sql_on_connection>
+
 ## Troubleshooting
 
 ### IllegalStateException: Unable to read the page at position
@@ -103,6 +107,6 @@ A driver version is used for creation and another for read.
 
 Not supported! Replace with `number(10, 0)`, `number(38, 0)`,  ...
 
-### Deffered FK
+### Deferred FK
 
 Not supported!

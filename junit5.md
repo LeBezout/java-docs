@@ -10,7 +10,7 @@
 <dependency>
   <groupId>org.junit.jupiter</groupId>
   <artifactId>junit-jupiter</artifactId>
-  <version>5.4.2</version>
+  <version>5.9.3</version>
   <scope>test</scope>
 </dependency>
 ```
@@ -23,7 +23,7 @@
 <dependency>
   <groupId>org.junit</groupId>
   <artifactId>junit-bom</artifactId>
-  <version>5.4.2</version>
+  <version>5.9.3</version>
   <type>pom</type>
   <scope>import</scope>
 </dependency>
@@ -62,7 +62,7 @@
 <dependency>
     <groupId>org.junit.vintage</groupId>
     <artifactId>junit-vintage-engine</artifactId>
-    <version>5.4.2</version>
+    <version>5.9.3</version>
 </dependency>
 ```
 
@@ -74,7 +74,7 @@
     <plugin>
       <groupId>org.apache.maven.plugins</groupId>
       <artifactId>maven-surefire-plugin</artifactId>
-      <version>2.22.1</version>
+      <version>3.5.2</version>
     </plugin>
   </plugins>
 </build>
@@ -82,7 +82,7 @@
   <dependency>
     <groupId>org.junit.jupiter</groupId>
     <artifactId>junit-jupiter-engine</artifactId>
-    <version>5.4.2</version>
+    <version>5.9.3</version>
   </dependency>
 </dependencies>
 ```
@@ -120,7 +120,7 @@ Add **junit-jupiter-params** dependency if we don't use **junit-jupiter** aggreg
 
 :warning: **Use `@ParameterizedTest` instead of `@Test`, not both. Otherwise JUnit throw a `ParameterResolutionException`**
 
-[@ValueSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-ValueSource) / [@EmptySource / @NullSource / @NullAndEmptySource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-null-and-empty) : 
+[@ValueSource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-ValueSource) / [@EmptySource / @NullSource / @NullAndEmptySource](https://junit.org/junit5/docs/current/user-guide/#writing-tests-parameterized-tests-sources-null-and-empty) :
 
 ```java
 @ParameterizedTest
@@ -197,7 +197,7 @@ void test_something(MyEnum myEnum) {
 ```java
 class SomeTests {
     // some tests
-    
+
     @Nested
     class SomeOtherTests {
       // some other tests

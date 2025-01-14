@@ -4,7 +4,7 @@
 
 _...a little bit poor..._
 
-:bulb: This is a _code first_ approcah unlike `spring-boot-starter-web-services` explained here <https://spring.io/guides/gs/producing-web-service/> that proposes a more complicated _contract first_ approach.
+:bulb: This is a _code first_ approach unlike `spring-boot-starter-web-services` explained here <https://spring.io/guides/gs/producing-web-service/> that proposes a more complicated _contract first_ approach.
 
 ## Step 1: add a single dependency
 
@@ -42,12 +42,12 @@ public class SampleSoapService {
   public SampleSoapService(MyService sampleService) {
     this.sampleService = sampleService;
   }
-  
+
   @WebResult(name = "version")
   public String wsVersion() {
     return "1.0";
   }
-	
+
   @WebResult(name = "sample")
   public SampleDTO getEntityById(@WebParam(name = "idSample") @XmlElement(required = true) Long id) {
     return sampleService.getSampleEntity(id);
@@ -64,7 +64,7 @@ I write a single `@Configuration` class to centralize the declarations :
 public class WebServicePublisher {
   private static final String LOG_MSG_PATTERN = "Publishing CXF Webservice {}";
   private static final Logger LOGGER = LoggerFactory.getLogger(WebServicePublisher.class);
-	
+
   @Autowired
   private SpringBus springBus;
   // inject here all endpoints
@@ -88,7 +88,7 @@ public class WebServicePublisher {
     endpoint.publish("/other");
     return endpoint;
   }
-	
+
   // ... and more
 }
 ```
@@ -106,7 +106,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     auth.inMemoryAuthentication().withUser("admin-ws").password("{noop}secret").authorities("G_ADMIN_WS");
     //auth.authenticationProvider(your_custom_auth_provider);
   }
-    
+
   @Override
   protected void configure(HttpSecurity http) throws Exception {
     // Avoid 403 - Could not verify the provided CSRF token because your session was not found.
@@ -114,7 +114,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
     // Secure each service with a single role
     http.authorizeRequests().anyRequest().hasAuthority("G_ADMIN_WS").and().httpBasic();
   }
-	
+
   @Override
   public void configure(WebSecurity web) throws Exception {
     // let acess everyone to the WSDL, the services list and CXF generated stylesheets or some unsecured endpoints
@@ -136,14 +136,14 @@ public class SampleSoapServiceTest {
 
   @Autowired
   private SampleSoapService endpoint;
-	
+
   @Test
   public void test_wsVersion() {
     String version = endpoint.wsVersion();
     Assert.assertNotNull(version);
     Assert.assertTrue(version.length() > 0);
   }
-	
+
   @Test
   public void test_getEntityById() {
     MyEntity entity = endpoint.getEntityById();
