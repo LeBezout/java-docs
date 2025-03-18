@@ -117,7 +117,7 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
   @Override
   public void configure(WebSecurity web) throws Exception {
-    // let acess everyone to the WSDL, the services list and CXF generated stylesheets or some unsecured endpoints
+    // let access everyone to the WSDL, the services list and CXF generated stylesheets or some unsecured endpoints
     web.ignoring().antMatchers("/ws", "/ws/unsecured").regexMatchers(".*\\?wsdl").regexMatchers(".*\\?stylesheet=.*");
   }
 }

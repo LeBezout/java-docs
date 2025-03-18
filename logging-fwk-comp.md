@@ -10,7 +10,7 @@
 
 :information_source: [Logback](https://logback.qos.ch/) is the reference implementation for [SLF4J](https://www.slf4j.org/)
 
-:information_source: Spring Framework historically use [commons-loggins](https://commons.apache.org/logging)
+:information_source: Spring Framework historically use [commons-logging](https://commons.apache.org/logging)
 
 ## Loggers
 
@@ -108,7 +108,7 @@
 * [Logback - Configuration](https://logback.qos.ch/manual/configuration.html)
 * [Log4J 1.2](https://logging.apache.org/log4j/1.2/)
 * [Log4J 2 - Manual](https://logging.apache.org/log4j/2.x/manual/)
-* [Apache Commons - commons-loggins](https://commons.apache.org/proper/commons-logging/)
+* [Apache Commons - commons-logging](https://commons.apache.org/proper/commons-logging/)
 * [Java Logging Overview](https://docs.oracle.com/javase/8/docs/technotes/guides/logging/overview.html)
 
 ### Tutorials
