@@ -14,7 +14,13 @@
 
 | Vendor | Inception Date | Magic Number |
 |--------|----------------|--------------|
-| Oracle Corporation | 2025-04 | `0x44` / `67` |
+| Oracle Corporation | 2025-03 | `0x44` / `67` |
+
+* Class-File API
+* Stream Gatherers
+* Structured Concurrency & Scoped Values (Preview V4)
+* Vector API (Preview V9)
+* Pattern matching for primitives (Preview V2)
 
 ## [Java 23](https://openjdk.org/projects/jdk/23/)
 
@@ -22,18 +28,26 @@
 |--------|----------------|--------------|
 | Oracle Corporation | 2024-09 | `0x43` / `67` |
 
+* JavaDoc Markdown Documentation Comments
+* Class-File API (Preview V2)
+* Stream Gatherers (Preview V2)
+* Structured Concurrency & Scoped Values (Preview V3)
+* Vector API (Preview V8)
+* Pattern matching for primitives (Preview V1)
+
 ## [Java 22](https://openjdk.org/projects/jdk/22/)
 
 | Vendor | Inception Date | Magic Number |
 |--------|----------------|--------------|
-| Oracle Corporation | 2024-04 | `0x42` / `66` |
+| Oracle Corporation | 2024-03 | `0x42` / `66` |
 
-* Statements before super (Preview V1)
+* Statements before `super(..)` (Preview V1)
 * Vector API (Preview V7)
-* Stream Gatherers (Preview v1)
-* Scoped Values (Preview V2)
+* Stream Gatherers (Preview V1)
+* Structured Concurrency & Scoped Values (Preview V2)
 * String Templates (Preview V2)
 * Launch Multi-File Source-Code Programs
+* Class-File API (Preview V1)
 
 ## [Java 21](https://openjdk.org/projects/jdk/21/) - **LTS**
 
@@ -48,6 +62,7 @@
 * Pattern Matching for switch
 * Vector API (Preview V6)
 * String Templates (Preview V1)
+* Structured Concurrency & Scoped Values (Preview V1)
 
 ## [Java 20](https://openjdk.org/projects/jdk/20/)
 
