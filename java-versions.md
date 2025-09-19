@@ -10,6 +10,13 @@
 |--------|----------------|--------------|
 | Oracle Corporation | 2025-09 | `0x45` / `68` |
 
+* Allow statements before an explicit constructor invocation
+* Structured Concurrency (Preview V5)
+* Scoped Values
+* Module Import Declarations
+* Vector API (Preview V10)
+* Stable Values (Preview V1)
+
 ## [Java 24](https://openjdk.org/projects/jdk/24/)
 
 | Vendor | Inception Date | Magic Number |
