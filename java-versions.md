@@ -2,13 +2,36 @@
 
 * [Java 1](#java-1) | [Java 1.1](#java-11) | [Java 1.2](#java-12-1) | [Java 1.3](#java-13-1) | [Java 1.4](#java-14-1) | [Java 5.0](#java-50) | [Java 6.0](#java-60) | [Java 7](#java-7) | [Java 8](#java-8---lts) | [Java 9](#java-9)
 * [Java 10](#java-10) | [Java 11](#java-11---lts) | [Java 12](#java-12) | [Java 13](#java-13) | [Java 14](#java-14) | [Java 15](#java-15) | [Java 16](#java-16) | [Java 17](#java-17---lts) | [Java 18](#java-18) | [Java 19](#java-19)
-* [Java 20](#java-20) | [Java 21](#java-21---lts) | [Java 22](#java-22) | [Java 23](#java-23) | [Java 24](#java-24) | [Java 25](#java-25---lts)
+* [Java 20](#java-20) | [Java 21](#java-21---lts) | [Java 22](#java-22) | [Java 23](#java-23) | [Java 24](#java-24) | [Java 25](#java-25---lts) | [Java 26](#java-26) | [Java 27](#java-27) | Java 28 | Java 29
+
+## [Java 27](https://openjdk.org/projects/jdk/27/)
+
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
+| Oracle Corporation | 2026-09 | `0x47` / `71` |
+
+* G1 as default GC
+* Structured Concurrency (Preview V7)
+* Compact Object Headers
+* Vector API (Preview V12)
+* Lazy Constants (Preview V3)
+
+## [Java 26](https://openjdk.org/projects/jdk/26/)
+
+| Vendor | Inception Date | Magic Number |
+|--------|----------------|--------------|
+| Oracle Corporation | 2026-03 | `0x46` / `70` |
+
+* Remove Applet API
+* Structured Concurrency (Preview V6)
+* Vector API (Preview V11)
+* Lazy Constants (Preview V2)
 
 ## [Java 25](https://openjdk.org/projects/jdk/25/) - **LTS**
 
 | Vendor | Inception Date | Magic Number |
 |--------|----------------|--------------|
-| Oracle Corporation | 2025-09 | `0x45` / `68` |
+| Oracle Corporation | 2025-09 | `0x45` / `69` |
 
 * Allow statements before an explicit constructor invocation
 * Structured Concurrency (Preview V5)
@@ -16,12 +39,13 @@
 * Module Import Declarations
 * Vector API (Preview V10)
 * Stable Values (Preview V1)
+* Lazy Constants (Preview V1)
 
 ## [Java 24](https://openjdk.org/projects/jdk/24/)
 
 | Vendor | Inception Date | Magic Number |
 |--------|----------------|--------------|
-| Oracle Corporation | 2025-03 | `0x44` / `67` |
+| Oracle Corporation | 2025-03 | `0x44` / `68` |
 
 * Class-File API
 * Stream Gatherers
